@@ -2,6 +2,7 @@
 	require("../conn.php");
 	$jcxm=$_POST["jcxm"];
 	$flag=$_POST["flag"];
+//$flag=2;
 	
 	$a = explode(',',$jcxm); //分割违章条目
 	$wztm=array();
@@ -57,19 +58,21 @@
 									}';
 	}else if($flag==2){
 						if($jcxm_L==""){
-							$sql = "select distinct 二级风险项 from 风险分类";
+							$sql = "select distinct 二级风险项,风险等级  from 风险分类";
 						}else{
-							$sql = "select distinct 二级风险项 from 风险分类 where 风险项 in ".$jcxm_L." ";
+							$sql = "select distinct 二级风险项,风险等级 from 风险分类 where 风险项  in ".$jcxm_L."";
 						}
-						$result = $conn->query($sql);
+						$result = $conn->query($sql);	
 						$count=mysqli_num_rows($result);	
 						if ($result->num_rows > 0) {
 							 while($row = $result->fetch_assoc()) {
-							 	$sqldate= $sqldate.'{"内容":"'.$row["二级风险项"].'"},';
+							 	$sqldate= $sqldate.'{"内容":"'.$row["风险等级"]."级：".$row["二级风险项"].'"},';
 							 }
 						} else {
 					
 						}
+//						echo $row["风险等级"];
+//						echo $sqldate;
 						$jsonresult='success';
 						$otherdate = '{"result":"'.$jsonresult.'",
 									"count":"'.$count.'"

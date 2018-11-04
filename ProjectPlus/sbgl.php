@@ -91,6 +91,7 @@
     							<li  class="active" ><a href="sbgl.php?id=<?php echo $row["id"];?>&yhid=<?php echo $yhid ;?>">设备管理</a></li>
     							<li><a href="xczg.php?id=<?php echo $row["id"];?>&yhid=<?php echo $yhid ;?>">巡查整改</a></li>
     							<li ><a href="zlsc.php?id=<?php echo $row["id"];?>&yhid=<?php echo $yhid;?>">质量实测</a></li>
+    							<li><a href="tz_table.php?id=<?php echo $row["id"];?>&yhid=<?php echo $yhid;?>">台账报表</a></li>
     						</ul>
     					</li>    					
     					<li>

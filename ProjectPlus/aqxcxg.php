@@ -154,12 +154,12 @@
 					<div class="form-group">
 						<label for="ks" class="col-sm-3 control-label">预计开始日期：</label>
 						<div class="col-sm-3">
-							<input type="text" class="form-control" id="ks" name="ks" value="<?php echo $row["预计开始日期"];?>" placeholder="">
+							<input type="text" class="form-control" id="ks" name="ks" value="<?php echo $row["开始日期"];?>" placeholder="">
 						</div>
 						
 						<label for="js" class="col-sm-3 control-label">预计结束日期：</label>
 						<div class="col-sm-3">
-							<input type="text" class="form-control" id="js" name="js" value="<?php echo $row["预计结束日期"];?>" placeholder="">
+							<input type="text" class="form-control" id="js" name="js" value="<?php echo $row["结束日期"];?>" placeholder="">
 						</div>
 					</div>
 					<div class="form-group">
@@ -217,10 +217,16 @@
 					</div>
 					
 					<div class="form-group">
-						<label for="ejlx" class="col-sm-3 control-label">二级类型：</label>
-								<div class="col-sm-3">
-									<input type="text" class="form-control" id="ejlx" name="ejlx" value="<?php echo $row["二级类型"];?>  " placeholder=""  >
-								</div>
+						<label for="wxyzt" class="col-sm-3 control-label">危险源状态：</label>
+										<div class="col-sm-3">
+											<select id="wxyzt" name="wxyzt" class="form-control">
+												<option><?php echo $row["危险源状态"];?></option>
+												<option>拆卸</option>
+												<option>安装</option>
+												
+												
+											</select>
+										</div>
 								
 						<label for="wxylx" class="col-sm-3 control-label">危险源类型：</label>
 										<div class="col-sm-3">
@@ -240,16 +246,7 @@
 					</div>
 					
 							
-								<label for="wxyzt" class="col-sm-3 control-label">危险源状态：</label>
-										<div class="col-sm-3">
-											<select id="wxyzt" name="wxyzt" class="form-control">
-												<option><?php echo $row["危险源状态"];?></option>
-												<option>拆卸</option>
-												<option>安装</option>
-												
-												
-											</select>
-										</div>
+								
 										
 								 </div>
 								 			

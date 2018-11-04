@@ -11,6 +11,28 @@
       width: 100%;
       height: 100%;
     }
+    .input {
+		  display: inline-block;
+		  font-weight: 400;
+		  text-align: center;
+		  white-space: nowrap;
+		  vertical-align: middle;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  border: 1px solid transparent;
+		  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		  background-color: transparent;
+		  background-image: none;
+		  color: #25A5F7;
+		  border-color: #25A5F7;
+		  padding: .25rem .5rem;
+		  line-height: 1.5;
+		  border-radius: 1rem;
+		  -webkit-appearance: button;
+		  cursor:pointer;
+		}
     </style>
     <title>椭圆的绘制和编辑</title>
     <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css" />
@@ -22,10 +44,12 @@
 <div id="container"></div>
 <div class="input-card" style="width: 200px">
    <h4 style="margin-bottom: 10px; font-weight: 600">利用mouseTool绘制覆盖物</h4>
-   <button class="btn" onclick="drawPolyline()" style="margin-bottom: 5px">绘制线段</button> 
-   <button class="btn" onclick="drawPolygon()" style="margin-bottom: 5px">绘制多边形</button> 
-   <button class="btn" onclick="drawRectangle()" style="margin-bottom: 5px">绘制矩形</button> 
-   <button class="btn" onclick="drawCircle()" style="margin-bottom: 5px">绘制圆形</button> 
+ 	<input class="input" type="type" name="floor_NUM" id="floor_NUM" value="" placeholder="请填写绘画模型层数" />
+   	<button class="btn" onclick="drawPolyline()" style="margin-bottom: 5px">绘制线段</button> 
+   	<button class="btn" onclick="drawPolygon()" style="margin-bottom: 5px">绘制多边形</button> 
+   	<button class="btn" onclick="drawRectangle()" style="margin-bottom: 5px">绘制矩形</button> 
+   <!--<button class="btn" onclick="drawCircle()" style="margin-bottom: 5px">绘制圆形</button>--> 
+ 
    <button  class="btn btn-primary" id="sure" >关闭</button>
 </div>
 <script type="text/javascript">

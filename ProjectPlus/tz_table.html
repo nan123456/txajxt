@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>台账报表</title>
+	</head>
+	<body>
+		<h3 align="center">安全检查及隐患整改台账</h3>
+		<center id="table">
+			<table id="b1" border="1" style="table-layout: fixed; word-wrap: break-word;" cellspacing="0" bordercolor="black" width="1130px" >
+				<thead style="height: 90px; text-align: center;">
+					<tr height="90px">
+						<td width="20px">序号</td>
+						<td width="60px">检查单位</td>
+						<td width="80px">项目名称</td>
+						<td width="300px">隐患部位及详细情况</td>
+						<td width="40px">整改下发时间</td>
+						<td width="40px">整改截止日期</td>
+						<td width="40px">整改回复时间</td>
+						<td width="40px">整改责任人</td>
+						<td width="40px">整改情况</td>
+						<td width="40px">分公司复查检查人</td>
+						<td width="40px">整改结果</td>
+						<td width="40px">归档时间</td>
+			 	   </tr>
+				</thead>
+				<tbody id="tb1" >
+				</tbody>
+				<tr id='tf' style="height: 90px; text-align: center;">
+					
+				</tr>
+		</table>
+		<!--<table border="1" cellspacing="0" bordercolor="black" width="650px" height="960px">
+		</table>-->
+		</center>
+		
+	</body>
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	<script src="../js/scripts.js"></script>
+	<script src="../js/moment.min.js"></script>
+	<script>
+			
+			 var info = window.opener.info;
+			 var sjc = new Array();
+			 var gcid = new Array();
+			 var tzdbh = new Array();
+			 var date = info[0].split('||');
+			 var star_date = date[0];
+			 var end_date = date[1];
+//			 alert(star_date+'-'+end_date)
+			 for(var i=1,j=0; i<info.length; i++,j++){
+			 	if(info[i]==""||info[i]==null){
+			 		continue;
+			 	}
+			 	var Lee = info[i].split('/');
+//			 	alert(Lee[2])
+			 	 sjc[j] = Lee[0];
+			 	 gcid[j] = Lee[1];
+			 	 tzdbh[j] = Lee[2];
+			 }
+			 var sjc_L = sjc.join("','");
+			 var bumen = tzdbh[0].split('-');
+//			 alert(bumen[0]);
+			 
+			 if(bumen[0]=='总公司'){
+			 $.ajax({
+			        type: "POST",
+			        url: "inf_tzd.php",
+			        data: {
+			        	sjc_L: sjc_L,
+				 		gcid_L: gcid[0],
+				 		flag: 'zgs_in'
+			        },
+			        dataType: "json",
+			        success: function (data) {
+			        var ob=JSON.parse(data) ;	
+			        sessionStorage.setItem('num_L',0);
+			        var num = 0;
+			        var j = 0;
+			      	for(var i=0; i<ob.length-1; i++,j++){
+			      		var nr = ob[i].内容.split('||');
+			      		var dx = ob[i].对象.split('||');
+			      		num = num + nr.length-1;
+			      		var bw_qk="";
+			      		var table1 = document.getElementById('b1');
+			      		var num_L = sessionStorage.getItem('num_L');
+			      		for(var k=0; k<nr.length-1; k++){
+			      			 bw_qk = bw_qk+(k+1)+'.'+nr[k]+'。'+'(部位：'+dx[k]+')<br>';
+			      		}
+			      		
+			      		var Lee = new Array();
+			      		var push_time = ob[i].下发整改时间.split('/');
+			      		var end_time = ob[i].整改期限.split(' ');
+			      		 Lee[0] = i+1;
+			      		 Lee[1] = ob[i].检查单位;
+			      		 Lee[2] = ob[i].工程名称;
+			      		 Lee[3] = bw_qk;
+			      		 Lee[4] = push_time[0];
+			      		 Lee[5] = end_time[0];
+			      		 Lee[6] = ob[i].回复日期;
+			      		 Lee[7] = ob[i].项目经理;
+			      		 Lee[8] = ob[i].通知单状态;
+			      		 Lee[9] = ob[i].批复人;
+			      		 Lee[10] = ob[i].总公司批复意见;
+			      		 Lee[11] = ob[i].总公司批复日期;
+			      		 var height = table1.offsetHeight;
+						sessionStorage.setItem("key"+i,height);
+			      		table_cr(i,Lee,num_L,nr.length-1);
+			      	}
+			      	cr_tf(star_date,end_date,num);
+					if(table1.offsetHeight<650){
+						table1.style.height = "650px";
+					}
+					var num_l = sessionStorage.getItem('num_L');
+					if(table1.offsetHeight-(708+685*num_l)>0&&table1.offsetHeight-(708+685*num_l)<90){
+						var tb = document.getElementById('tb1');
+						var getlast = tb.lastElementChild;
+						var lee = sessionStorage.getItem("key"+(j-1));
+						var height = (800+685*num_l)-lee;
+						getlast.style.height = height+"px";
+					}
+					},
+			        error: function (data) {
+			            alert("提交数据失败！");
+			        }
+			    });
+			 }else if(bumen[0]=='项目部'){
+			 $.ajax({
+			        type: "POST",
+			        url: "inf_tzd.php",
+			        data: {
+			        	sjc_L: sjc_L,
+				 		gcid_L: gcid[0],
+				 		flag: 'xmb_in'
+			        },
+			        dataType: "json",
+			        success: function (data) {
+			        var ob=JSON.parse(data) ;
+			        sessionStorage.setItem('num_L',0);
+			        var num = 0;
+			        var j = 0;
+//			        alert(ob)
+			      	for(var i=0; i<ob.length-1; i++,j++){
+			      		var nr = ob[i].内容.split('||');
+			      		var dx = ob[i].对象.split('||');
+			      		num = num + nr.length-1;
+			      		var bw_qk="";
+			      		var num_L = sessionStorage.getItem('num_L');
+			      		var table1 = document.getElementById('b1');
+			      		for(var k=0; k<nr.length-1; k++){
+			      			 bw_qk = bw_qk+(k+1)+'.'+nr[k]+'。'+'(部位：'+dx[k]+')<br>';
+			      		}
+			      		
+			      		var Lee = new Array();
+			      		var push_time = ob[i].下发整改时间.split('/');
+			      		var end_time = ob[i].整改期限.split(' ');
+			      		 Lee[0] = i+1;
+			      		 Lee[1] = ob[i].检查单位;
+			      		 Lee[2] = ob[i].工程名称;
+			      		 Lee[3] = bw_qk;
+			      		 Lee[4] = push_time[0];
+			      		 Lee[5] = end_time[0];
+			      		 Lee[6] = ob[i].回复日期;
+			      		 Lee[7] = ob[i].安全员;
+			      		 Lee[8] = ob[i].通知单状态;
+			      		 Lee[9] = "——";
+			      		 Lee[10] = ob[i].项目部回复意见;
+			      		 Lee[11] = ob[i].回复日期;
+			      		 var height = table1.offsetHeight;
+						sessionStorage.setItem("key"+i,height);
+			      		table_cr(i,Lee,num_L);
+			      	}
+			      	cr_tf(star_date,end_date,num);
+					if(table1.offsetHeight<708){
+						table1.style.height = "650px";
+					}
+					var num_l = sessionStorage.getItem('num_L');
+					if(table1.offsetHeight-(708+685*num_l)>0&&table1.offsetHeight-(708+685*num_l)<90){
+						var tb = document.getElementById('tb1');
+						var getlast = tb.lastElementChild;
+						var lee = sessionStorage.getItem("key"+(j-1));
+						var height = (800+685*num_l)-lee;
+						getlast.style.height = height+"px";
+					}
+					},
+			        error: function (data) {
+			            alert("提交数据失败！");
+			        }
+			    });
+			 }else{
+			 	$.ajax({
+			        type: "POST",
+			        url: "inf_tzd.php",
+			        data: {
+			        	sjc_L: sjc_L,
+				 		gcid_L: gcid[0],
+				 		flag: 'fgs_in'
+			        },
+			        dataType: "json",
+			        success: function (data) {
+			        var ob=JSON.parse(data);	
+			        sessionStorage.setItem('num_L',0);
+			        var num = 0;
+			        var j = 0;
+			      	for(var i=0; i<ob.length-1; i++,j++){
+			      		var nr = ob[i].内容.split('||');
+			      		var dx = ob[i].对象.split('||');
+			      		num = num + nr.length-1;
+			      		var bw_qk="";
+			      		var table1 = document.getElementById('b1');
+			      		var num_L = sessionStorage.getItem('num_L');
+			      		for(var k=0; k<nr.length-1; k++){
+			      			 bw_qk = bw_qk+(k+1)+'.'+nr[k]+'。'+'(部位：'+dx[k]+')<br>';
+			      		}
+			      		
+			      		var Lee = new Array();
+			      		var push_time = ob[i].下发整改时间.split('/');
+			      		var end_time = ob[i].整改期限.split(' ');
+			      		 Lee[0] = i+1;
+			      		 Lee[1] = ob[i].检查单位;
+			      		 Lee[2] = ob[i].工程名称;
+			      		 Lee[3] = bw_qk;
+			      		 Lee[4] = push_time[0];
+			      		 Lee[5] = end_time[0];
+			      		 Lee[6] = ob[i].回复日期;
+			      		 Lee[7] = ob[i].项目经理;
+			      		 Lee[8] = ob[i].通知单状态;
+			      		 Lee[9] = ob[i].批复人;
+			      		 Lee[10] = ob[i].批复意见;
+			      		 Lee[11] = ob[i].批复日期;
+			      		 var height = table1.offsetHeight;
+						sessionStorage.setItem("key"+i,height);
+			      		table_cr(i,Lee,num_L);
+			      	}
+			      	cr_tf(star_date,end_date,num);
+			      	var num_l = sessionStorage.getItem('num_L');
+					if(table1.offsetHeight<700){
+						table1.style.height = "650px";
+					}
+					var num_l = sessionStorage.getItem('num_L');
+					if(table1.offsetHeight-(708+685*num_l)>0&&table1.offsetHeight-(708+685*num_l)<90){
+						var tb = document.getElementById('tb1');
+						var getlast = tb.lastElementChild;
+						var lee = sessionStorage.getItem("key"+(j-1));
+						var height = (800+685*num_l)-lee;
+						getlast.style.height = height+"px";
+					}
+					},
+			        error: function (data) {
+			            alert("提交数据失败！");
+			        }
+			    });
+			 }
+		
+		function table_cr(i,Lee,num_L,tm_num){
+			var tb = document.getElementById('tb1');
+			var tr = document.createElement('tr');
+			tb.appendChild(tr);
+			var table1 = document.getElementById('b1');//首页最大行高1138，以后页面1110
+			var lee = sessionStorage.getItem("key"+i);//本行数据行高
+			var num = sessionStorage.getItem("key"+(i-1));//上行数据行高
+			var Lee_2 = sessionStorage.getItem("key"+(i-2));//上行数据行高
+			var line_height = lee - num;//预加行行高
+//alert(tm_num)
+			for(var j=0; j<12; j++){
+				var td = document.createElement('td');
+				tr.appendChild(td);
+				if(j==3&&tm_num>20){
+					tr.style.fontSize = '6px';
+				}
+				td.innerHTML = Lee[j];
+			}
+			
+			var height = table1.offsetHeight;
+//			alert('倒数第二行数据行高'+num+'||'+'倒数第一行数据行高'+lee+'||'+'总行高'+height)
+			if(height-(798+680*num_L)>0){
+//				alert(height-(785+620*num_L))
+				var getlast = tb.lastElementChild;
+				var brother = getlast.previousSibling;
+				var new_height = (800+685*num_L)-num;
+//				alert(num+"||"+new_height+'||'+num_L);
+				brother.style.height = new_height+"px";
+				num_L++;
+				sessionStorage.setItem('num_L',num_L);
+				var xx = new_height-line_height;
+				var jj =  parseInt(lee) +  parseInt(xx);
+//				alert(jj)
+				sessionStorage.setItem("key"+i,jj);
+			}			
+		}
+		function cr_tf(star_date,end_date,num){
+			var tr = document.getElementById('tf');
+//			var tr = document.createElement('tr');
+//			tr.style.height = '90px';
+//			tf.appendChild(tr);
+			var td1 = document.createElement('td');
+			td1.setAttribute('colspan', 2);
+			td1.innerHTML = '汇总';
+			tr.appendChild(td1);
+			var td2 = document.createElement('td');
+			td2.setAttribute('colspan', 2);
+			td2.innerHTML = '日期： '+star_date+' 至 '+end_date;
+			tr.appendChild(td2);
+			var td3 = document.createElement('td');
+			td3.setAttribute('colspan', 8);
+			td3.innerHTML = '据统计该时间段共有'+num+'条隐患条目。';
+			tr.appendChild(td3);
+		}
+	</script>
+</html>

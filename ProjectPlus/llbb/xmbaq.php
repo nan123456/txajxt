@@ -1,4 +1,4 @@
-﻿<?php error_reporting( E_ALL&~E_NOTICE );?>
+<?php error_reporting( E_ALL&~E_NOTICE );?>
 <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head>
 <script type="text/javascript" src="../js/jquery.print.js"></script>
 	 <script language="javascript">
@@ -434,9 +434,24 @@ margin-right:90.0000pt;
 size:595.3000pt 841.9000pt;
 layout-grid:15.6000pt;
 }
+.sign{
+	width:75;
+	height:30px ;
+	position: absolute;
+	margin-top: -10;
+	z-index: -1;
+}
+.seal{
+	width: 360px;
+	position: absolute;
+	right: 30px;
+	top: 760px;
+	z-index: -1;
+}
 </style></head><body style="tab-interval:21pt;text-justify-trim:punctuation;" ><!--StartFragment-->
 	
 <div class="Section0"  style="layout-grid:15.6000pt;padding-bottom: 3em;" ><p class=MsoNormal  align=center  style="text-align:center;" ><b><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:18.0000pt;mso-font-kerning:1.0000pt;" ><font face="仿宋_GB2312" >项目部安全检查及隐患整改记录表</font></span></b><b><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:18.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p>
+	<br>
 <?php
            require("../../conn.php");
 		   $sjc2=$_GET["sjc1"];
@@ -452,7 +467,8 @@ layout-grid:15.6000pt;
 		   $Gcname=$row["工程名称"];
 		   $fgsyj=$row["批复意见"];
 		   $zgsyj=$row["总公司批复"];
-		   $T=$row["所属公司"];
+		   $t="中国华西";
+		   $T=$t.$row["所属公司"];
 		   $n=strlen($Gcname);
 		   if($n<60){
 		   		echo '<p class=MsoNormal  align=left  style="text-align:lift;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工程名称：'.$Gcname.'<span class=MsoNormal  align=left  style="text-align:lift;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编号：'.$row["通知单编号"].'</span></P>'.'<p  class=MsoNormal  align=left  style="text-align:lift;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;施工单位：'.$T.'</p>';
@@ -495,7 +511,7 @@ layout-grid:15.6000pt;
       <td align="center"  valign=center  style="width:72.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
         <?php
           
-		   echo $row["工长"];
+		   echo $row["机械管理员"];
 		?>
       </span></td>
       </tr>
@@ -546,7 +562,7 @@ layout-grid:15.6000pt;
       <td align="center"  valign=center  style="width:72.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" >生产经理</td>
       <td align="center"  valign=center  style="width:72.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" >安全总监</td>
       <td align="center"  valign=center  style="width:72.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" >安全员</td>
-      <td align="center"  valign=center  style="width:72.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" >工长</td>
+      <td align="center"  valign=center  style="width:72.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" >机械管理员</td>
     </tr>
   <tr><td  colspan=9 align="left"  valign=top  style="width:492.7000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  style="text-align:left;line-height:18.0000pt;mso-line-height-rule:exactly;" ><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >检查情况及存在的隐患：</span><span style="font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p>
       <p class=MsoNormal1  align=center  style="text-align:left;padding-left:2em;" >
@@ -583,8 +599,8 @@ layout-grid:15.6000pt;
 				$nee=(strlen($c[$i])+mb_strlen($c[$i],"UTF8"))/2;
 				$nee2=(strlen($par[$i])+mb_strlen($par[$i],"UTF8"))/2;
 				$zd=$nee+$nee2+12;
-				$Nee=intval($zd/92);
-				$Mee=$zd%92;
+				$Nee=intval($zd/78);
+				$Mee=$zd%78;
 				if($Mee!=0){
 					$sq=$Nee+1;
 				}else if($Mee==0){
@@ -593,7 +609,7 @@ layout-grid:15.6000pt;
 				$sume=$sume+$sq;
 				
 			}
-//echo $sume.'||';
+
 			if($part!==""){
 				$part=explode("||",$part);
 			}
@@ -603,34 +619,30 @@ layout-grid:15.6000pt;
 				}
 				$part=explode("|*|",$part);
 			}
-			if($sume<14){
+			if($sume<16){
 			for($b=0;$b<$d;$b++){
 					$e=$b+1;
 					echo $e.".".$c[$b]."。(部位：".$part[$b].")</br>";
 				}
-			
-			 $y=17-$sume;
-            	for($z=0;$z<$y;$z++){
-            		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
+			$y=17-$sume;
+            for($z=0;$z<$y;$z++){
+            	echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
             }
-		 
-			}
-			else {
+			}else {
 				for($b=0;$b<$d;$b++){
 					$e=$b+1;
 					echo '<p class=MsoNormal  style="text-align:left;" ><span style="font-size:9pt;text-align: left ; ">'.$e.".".$c[$b]."。(部位：".$part[$b].")</span></p>";
 				}
-			
-		 	$y=20-$sume;
+				$y=20-$sume;
             	for($z=0;$z<$y;$z++){
             		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
-		 }
-			
+            }
 			}
+		
 		$conn->close();
 		?>
 				<?php
-		    if($sume>22){
+		    if($sume>21){
 		    	echo "<script>alert('数据过多！！！')</script>";
 		    }
 //echo $sume;
@@ -644,8 +656,7 @@ layout-grid:15.6000pt;
           <o:p> </o:p>
           <o:p></o:p>
         </span></p>
-      <p class=MsoNormal1  align=center  style="text-align:left;padding-left:2em;" ></p>
-      <p class=MsoNormal  style="text-align:left;line-height:18.0000pt;mso-line-height-rule:exactly;; font-family: &quot;仿宋_GB2312&quot;; font-size: 10.5000pt" >&nbsp;</p></td></tr><tr><td  colspan=9 align="left"  valign=top  style="width:492.7000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  style="text-align:left;line-height:18.0000pt;mso-line-height-rule:exactly;" ><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >整改要求：</span><span style="font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="text-indent:15.7500pt;mso-char-indent-count:1.5000;text-align:left;line-height:18.0000pt;mso-line-height-rule:exactly;" ><span style="font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p><span style="text-align: left">
+     </td></tr><tr><td  colspan=9 align="left"  valign=top  style="width:492.7000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  style="text-align:left;line-height:18.0000pt;mso-line-height-rule:exactly;" ><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >整改要求：</span><span style="font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="text-indent:15.7500pt;mso-char-indent-count:1.5000;text-align:left;line-height:18.0000pt;mso-line-height-rule:exactly;" ><span style="font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p><span style="text-align: left">
       <?php
            require("../../conn.php");
 		   $sjc2=$_GET["sjc1"];
@@ -662,21 +673,40 @@ layout-grid:15.6000pt;
             $huifuNeirong.=$row["项目部回复"]."//";
            }
            $huifuNeirongArray=explode("//",$huifuNeirong);
-		   $sl=count($huifuNeirongArray)-1;
-		   if($sl<6){
+           $zd=0;
+           for($i=0;$i<$d;$i++){
+				$nee=(strlen($huifuNeirongArray[$i])+mb_strlen($huifuNeirongArray[$i],"UTF8"))/2;
+				$zd=$zd+$nee;
+				
+				
+}
+				$Nee=intval($zd/90);
+				$Mee=$zd%90;
+				$sum=0;
+				if($Mee!=0){
+					$sq=$Nee+1;
+				}else if($Mee==0){
+					$sq=$Nee;
+				}
+				$sum=$sum+$sq;
+
+//echo $sum;
+//		   $sl=count($huifuNeirongArray)-1;
+		   if($sum<=2){
            for($i=0;$i<count($huifuNeirongArray)-1;$i++){
-           	  echo ($i+1).".".$huifuNeirongArray[$i]."&nbsp;&nbsp;&nbsp;";
+           	  echo ($i+1).".".$huifuNeirongArray[$i]."&nbsp;";
            }
+           echo '<p class=MsoNormal  align=center style="text-align:center;margin:0px;" >&nbsp;</p>';
 		   }else{
 		   	for($i=0;$i<count($huifuNeirongArray)-1;$i++){
 //         	  echo ($i+1).".".$huifuNeirongArray[$i].$sl."&nbsp;&nbsp;&nbsp;";
-				echo '<span style="font-size:9pt;text-align: left ; ">'.($i+1).".".$huifuNeirongArray[$i]."&nbsp;&nbsp;&nbsp;"."</span>";
+				echo '<span style="font-size:9pt;text-align: left ; ">'.($i+1).".".$huifuNeirongArray[$i]."</span>";
 		   }}
 			$conn->close();
 														
 		?>
       </span></o:p></span></p>
-          <p class=MsoNormal  align=center  style="text-indent:15.7500pt;mso-char-indent-count:1.5000;text-alignleft;line-height:18.0000pt;mso-line-height-rule:exactly;" >&nbsp;</p>
+          <!--<p class=MsoNormal  align=center  style="text-indent:15.7500pt;mso-char-indent-count:1.5000;text-alignleft;line-height:18.0000pt;mso-line-height-rule:exactly;" >&nbsp;</p>-->
           <p class=MsoNormal  align=center  style="text-indent:15.7500pt;mso-char-indent-count:1.5000;line-height:18.0000pt;mso-line-height-rule:exactly;text-align: right;" >             <span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
             <?php
            require("../../conn.php");
@@ -751,7 +781,8 @@ layout-grid:15.6000pt;
            while($row = $result->fetch_assoc()) { 
 //			echo str_replace("||","。</br>",$row["内容"]);
             echo $row["批复意见"];
-            for($z=0;$z<4;$z++){
+            $biu = $sum-3;
+            for($z=0;$z<4-$biu;$z++){
             	echo '<p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p>';
             }
 		}
@@ -764,7 +795,7 @@ layout-grid:15.6000pt;
                 <o:p></o:p>
               </span></p>
 <p class=MsoNormal2  align=center  style="text-align:left;padding-left:10em;"  >&nbsp;</p>
-              <p class=MsoNormal2  align=center  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;" >复查人（签名）：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复查日期：
+              <p class=MsoNormal2  align=center  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;" >复查人（签名）：<span><font id="signB"></font> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复查日期：
                 <?php
            require("../../conn.php");
 		   $sjc2=$_GET["sjc1"];
@@ -803,7 +834,7 @@ layout-grid:15.6000pt;
               
 <!--EndFragment-->
 
-<div class="Section0" style="padding-top:50px;" >
+<div class="Section0" style="padding-top:20px;" >
 <?php
            require("../../conn.php");
 		   $sjc2=$_GET["sjc1"];
@@ -819,7 +850,6 @@ layout-grid:15.6000pt;
 		   $hello1 = explode("~*^*~",$row["回复附件"]);
 		    if($hello1[0]==""){
 		   	$numbhello=count($hello);
-		   
 		   	$hello1="";
 		   	for($i=0;$i<$numbhello;$i++){
 		   		$hello1.="add.jpg~*^*~";
@@ -832,15 +862,19 @@ layout-grid:15.6000pt;
 //          echo $row["项目部回复"];
 //			$huifuNeirong.=$row["项目部回复"]."//";
 //         $huifuNeirongArray=explode("//",$huifuNeirong);
-			
-			}
-			for($index=0;$index<count($hello)-1;$index++) 
-			{ 
+			for($index=0;$index<count($hello)-1;$index++) //多余11张图排版出错
+			{
+				$n_um = $index%3;
+				if($n_um==0){
+					?>
+					<p class=MsoNormal  align=center  style="text-align:center;line-height:150%;" ><b><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-weight:bold;font-size:18.0000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >安全隐患图片</font></span></b><b><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-weight:bold;font-size:14.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><br />
+					<?php
+				} 
 		?>
 <div class="row"  style="text-align:center;padding-bottom: 60px;" >
 	<div class="col-xs-6 col-md-6" style="text-align:right;position: relative;">		
-		<img src="../../sgajxtcs/upload/<?php echo $hello[$index];?>"  alt="草稿<?php echo $index;?>" style="width:275px;height:265px;"/>
-				<div style="position: absolute;width:275px;height:50px;bottom: -50px;right: 15px;word-break:break-all;font-size:8.0000pt;">
+		<img src="../../hxajxtcs/upload/<?php echo $hello[$index];?>"  alt="草稿<?php echo $index;?>" style="width:255px;height:255px;"/>
+				<div style="position: absolute;width:255px;height:50px;bottom: -50px;right: 15px;word-break:break-all;font-size:8.0000pt;">
 			<div style="text-align:left;border:1px solid #000;height: 100%;overflow: hidden;text-overflow:ellipsis;
 				margin: auto;width: 100%;padding: 10px;" >
 				<?php echo $hello2[$index]; ?>
@@ -848,8 +882,8 @@ layout-grid:15.6000pt;
 		</div>
 	</div>
 	<div class="col-xs-6 col-md-6" style="text-align:left;position: relative;">
-		<img src="../../sgajxtcs/upload/<?php echo $hello1[$index];?>" alt="回复<?php echo $index;?>" style="width:275px;height:265px;"/> 
-		 <div style="position: absolute;width:275px;height:50px;bottom: -50px;left: 15px;word-break:break-all;font-size:8.0000pt;">
+		<img src="../../hxajxtcs/upload/<?php echo $hello1[$index];?>" alt="回复<?php echo $index;?>" style="width:255px;height:255px;"/> 
+		 <div style="position: absolute;width:255px;height:50px;bottom: -50px;left: 15px;word-break:break-all;font-size:8.0000pt;">
 			<!--<input style="width: 100%;" type="text"  readonly="readonly" value="<?php echo $huifuNeirongArray[$index]; ?>"  />-->
 			<div style="text-align:left;border:1px solid #000;height: 100%;overflow: hidden;text-overflow:ellipsis;
 				margin: auto;width: 100%;padding: 10px;" >
@@ -859,11 +893,14 @@ layout-grid:15.6000pt;
 	</div>
 </div>
 <?php
-//	echo $index;
 	if(($index+1)%3==0){
-		echo '<br><br><br><br>';
+		echo '<br><br><br>';
 					}
 	 }
+//	 if(count($hello)-1>11){
+//						echo" <script> alert('图片数量最多显示11张!'); </script>";
+//					}
+			}
 			$conn->close();
 														
 		?>
@@ -872,6 +909,7 @@ layout-grid:15.6000pt;
 							
 						</div>-->
 </div>
+<p id="sjc" hidden="hidden"><?php echo $sjc1 ?></p>
 	<!--<div style="margin-left: 50;">
 						
 	<a class="word-export hidden-print" href="javascript:void(0)"><button type="button" style="height:40 ;width:100;">导出word</button> </a></div>-->
@@ -882,6 +920,110 @@ layout-grid:15.6000pt;
 	 jQuery(document).ready(function($) {
 	   $("a.word-export").click(function(event) {
 		$("#page-content").wordExport();
+		});
+		
+		var sjc = $("#sjc").text();
+		//向后台发送请求签名&印章用的时间戳
+		$.post("sign/sign_seal.php",
+		{
+			sjc:sjc
+		},
+		function(data,status){
+//			alert(data);
+			var sign = data.split("|");
+//			var singA = document.getElementById('signA');
+			var signB = document.getElementById('signB');
+//			var fgs_sign = document.getElementById('fgs_sign');
+//			var zgs_sign = document.getElementById('zgs_sign');
+//			var fgsfc = document.getElementById('fgsfc');
+//			var fzren = document.getElementById('fzren');
+//			if(sign[0]==""||sign[0]==null){
+//				var span_1 = document.createElement('span');
+//					span_1.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+//					signA.appendChild(span_1);
+//			}else{
+//				var img_1 = document.createElement("img");
+//					img_1.className="sign";
+//					img_1.src=sign[0];
+//					signA.appendChild(img_1);
+//					
+//			}
+//			if(sign[1]==""||sign[1]==null){
+//				alert("n");
+//				var span_2 = document.createElement('span');
+//					span_2.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+//					signA.appendChild(span_2);
+//			}else{
+////				alert(sign[1]);
+//				var img_2 = document.createElement("img");
+//					img_2.className="sign";
+//					img_2.src=sign[1];
+//					signA.appendChild(img_2);
+//			}
+//			if(sign[2]==""||sign[2]==null){
+//				alert("n");
+//				var span_3 = document.createElement('span');
+//					span_3.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+//					signA.appendChild(span_3);
+//			}else{
+////				alert(sign[2]);
+//				var img_3 = document.createElement("img");
+//					img_3.className="sign";
+//					img_3.src=sign[2];
+//					signA.appendChild(img_3);
+//			}
+//			if(sign[6]!=""&&sign[6]!=null){
+//				var seal = document.getElementById('seal');
+//				var img_seal = document.createElement('img');
+//				img_seal.className='seal';
+//				img_seal.src=sign[6];
+//				seal.appendChild(img_seal);
+//				
+//			}
+			if(sign[8]!=""&&sign[8]!=null){
+				var img_B = document.createElement('img');
+				img_B.className='sign';
+				img_B.src=sign[8];
+				signB.appendChild(img_B);
+				
+//				var img_fzr = document.createElement('img');
+//				img_fzr.className='sign_1';
+//				img_fzr.src=sign[3];
+//				fzren.appendChild(img_fzr);
+			}else{
+				var span_4 = document.createElement('span');
+					span_4.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					signB.appendChild(span_4);
+			}
+//			if(sign[4]==""||sign[4]==null){
+//				var span_5 = document.createElement('span');
+//					span_5.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+//					fgs_sign.appendChild(span_5);
+//			}else{
+////				alert(sign[4]);
+//				var img_fgs = document.createElement('img');
+//				img_fgs.className='sign';
+//				img_fgs.src=sign[4];
+//				fgs_sign.appendChild(img_fgs);
+//				
+//				var img_fhc = document.createElement('img');
+//				img_fhc.className='sign_1';
+//				img_fhc.src=sign[4];
+//				fgsfc.appendChild(img_fhc);
+//			
+//			}
+//			if(sign[5]==""||sign[5]==null){
+//				var span_6 = document.createElement('span');
+//					span_6.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+//					zgs_sign.appendChild(span_6);
+//			}else{
+////				alert(sign[5]);
+//				var img_zgs = document.createElement('img');
+//				img_zgs.className='sign';
+//				img_zgs.src=sign[5];
+//				zgs_sign.appendChild(img_zgs);
+//			
+//			}
 		});
 		});
 		</script>	

@@ -1,4 +1,4 @@
-﻿<?php error_reporting( E_ALL&~E_NOTICE );?>
+<?php error_reporting( E_ALL&~E_NOTICE );?>
 <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head>
 <script type="text/javascript" src="../js/jquery.print.js"></script>
 	 <script language="javascript">
@@ -434,7 +434,36 @@ margin-right:90.0000pt;
 size:595.3000pt 841.9000pt;
 layout-grid:15.6000pt;
 }
-div.Section0{page:Section0;}</style></head><body style="tab-interval:21pt;text-justify-trim:punctuation;" ><!--StartFragment--><div class="Section0"  style="layout-grid:15.6000pt;padding-bottom: 3em;" ><p class=MsoNormal  align=center  style="text-align:center;" ><b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:15.0000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >同欣隐患整改通知单</font></span></b><b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:15.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >公司对项目部</font></span><b><span style="mso-spacerun:'yes';font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:15.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><table class=MsoTableGrid  align=center  style="border-collapse:collapse;width:498.6500pt;mso-table-layout-alt:fixed;mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;" ><tr style="height:28.3500pt;" ><td width=141  valign=center  colspan=2  style="width:106.3500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >检查单位<font face="Calibri" >/</font><font face="宋体" >部门</font></span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=260  valign=center  colspan=3  style="width:195.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >同欣企业有限公司安全监管部</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=75  valign=center  style="width:56.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >检查日期</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=128  valign=center  style="width:96.0500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
+div.Section0{page:Section0;}
+.sign{
+	width:75;
+	height:30px ;
+	position: absolute;
+	margin-top: -10;
+	z-index: -1;
+}
+.sign_d{
+	width:75;
+	height:30px ;
+}
+.sign_1{
+	width:100px;
+	height:50px ;
+	position: absolute;
+	z-index: -1;
+	margin-top: -19;
+}
+.seal{
+	width: 400px;
+	position: absolute;
+	left: calc(60%);
+	transform: translateX(-50%);
+	top: 660px;
+	z-index: -1;
+}
+</style>
+</head>
+<body style="tab-interval:21pt;text-justify-trim:punctuation;" ><!--StartFragment--><div class="Section0"  style="layout-grid:15.6000pt;padding-bottom: 3em;" ><p class=MsoNormal  align=center  style="text-align:center;" ><b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:15.0000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >中国华西隐患整改通知单</font></span></b><b><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:15.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >公司对项目部</font></span><b><span style="mso-spacerun:'yes';font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-weight:bold;font-size:15.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><table class=MsoTableGrid  align=center  style="border-collapse:collapse;width:498.6500pt;mso-table-layout-alt:fixed;mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;" ><tr style="height:28.3500pt;" ><td width=141  valign=center  colspan=2  style="width:106.3500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >检查单位<font face="Calibri" >/</font><font face="宋体" >部门</font></span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=260  valign=center  colspan=3  style="width:195.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >中国华西企业有限公司安全监管部</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=75  valign=center  style="width:56.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >检查日期</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=128  valign=center  style="width:96.0500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
 <?php
            require("../../conn.php");
 		   $sjc2=$_GET["sjc1"];
@@ -536,6 +565,7 @@ div.Section0{page:Section0;}</style></head><body style="tab-interval:21pt;text-j
            	 }
            }
 		?>
+		
 </span>&nbsp;</o:p></span></p></td></tr><tr><td width=75  valign=center  rowspan=7  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:none;;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >巡</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >查</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >人</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >员</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p></td><td width=66  valign=top  style="width:49.6000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >姓名</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=103  valign=top  style="width:77.9500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >单位<font face="Calibri" >/</font><font face="宋体" >部门</font></span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=104  valign=top  style="width:78.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >职</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >务</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=255  valign=top  colspan=3  style="width:191.3500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >安全检（巡）查内容</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr><tr style="height:14.6500pt;" ><td width=66 align="center"  valign=top  style="width:49.6000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
 <?php
            $NLone=explode("|",$NL[0]);
@@ -693,9 +723,7 @@ $NLsix=explode("|",$NL[5]);
 		   echo $Gcname;
 		?>
 </span></p></td><td width=104  valign=center  style="width:78.0000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >受检单位<font face="Calibri" >/(</font><font face="宋体" >项目</font><font face="Calibri" >)</font><font face="宋体" >负责人签名</font></span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=255  valign=center  colspan=3  style="width:191.3500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
-<?php
-		   echo $Xmjl;?>
-		   
+<span id="signB"></span>
 		   
 </span>&nbsp;</o:p></span></p></td></tr><tr style="height:200.1000pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';mso-font-kerning:1.0000pt;" >检查情况</span>
 	<span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p>
@@ -745,14 +773,15 @@ $NLsix=explode("|",$NL[5]);
 			$sume="";
 //          $dx1="11";
 			$c=explode("||",$text);
+			$par=explode("||",$part);
 			$d=count($c)-1;
 			for($i=0;$i<$d;$i++){
-				$nee1=(strlen($c[$i])+mb_strlen($c[$i],"UTF8"))/2;
-				$nee2=(strlen($par[$i])+mb_strlen($par[$i],"UTF8"))/2;
-				$nee=$nee1+$nee2+12;
+				$nee1=(strlen($c[$i])+mb_strlen($c[$i],"UTF8"))/2;//现象字节数
+				$nee2=(strlen($par[$i])+mb_strlen($par[$i],"UTF8"))/2;//部位字节数
+				$nee=$nee1+$nee2+12;//总字节数
 //				echo $nee.'||';
-				$Nee=intval($nee/78);
-				$Mee=$nee%78;
+				$Nee=intval($nee/74);
+				$Mee=$nee%74;
 				if($Mee!=0){
 					$sq=$Nee+1;
 				}else if($Mee==0){
@@ -764,7 +793,7 @@ $NLsix=explode("|",$NL[5]);
 //			echo $sume;
 ?>
 <?php 
-//			if($sume>16){
+//			if($sume>20){
 //				$dxx="5";
 //				echo "$sume";
 //				echo "$d";
@@ -779,40 +808,47 @@ $NLsix=explode("|",$NL[5]);
 				}
 				$part=explode("|*|",$part);
 			}
-			if($sume<16){
+			if($d<20){
 			for($b=0;$b<$d;$b++){
 					$e=$b+1;
 					echo '<p class=MsoNormal  style="text-align:left;" ><span style="font-size:11pt;text-align: left ; ">'.$e.".".$c[$b]."。(部位：".$part[$b].")</span></p>";
 				}
-			
-			 $y=20-$sume;
-            for($z=0;$z<$y;$z++){
-            		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
-            }
 			}
 			else{
 				for($b=0;$b<$d;$b++){
 					$e=$b+1;
-					echo '<p class=MsoNormal  style="text-align:left;" ><span style="font-size:9pt;text-align: left ; ">'.$e.".".$c[$b]."。(部位：".$part[$b].")</span></p>";
+					echo '<p class=MsoNormal  style="text-align:left;" ><span style="font-size:5pt;text-align: left ; ">'.$e.".".$c[$b]."。(部位：".$part[$b].")</span></p>";
 				}
 				
-		    	$y=22-$sume;
-            	for($z=0;$z<$y;$z++){
-            		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:7px;" >&nbsp;</p>';
-		    }
 			}
+			if($d<20){
+			 $y=22-$d;
+            	for($z=0;$z<$y;$z++){
+            		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
+            }
+		    }
+		    else{
+		    	$y=24-$d;
+            	for($z=0;$z<$y;$z++){
+            		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
+		    }
+		    }
+//			else {
+//				echo "<script>alert('提示内容')</script>";
+//
+//			}
 		
 		$conn->close();
 														
 		?>
 		<?php
 //		   if ($dxx<6){
-//			 $y=16-$sume;
+//			 $y=20-$sume;
 //          	for($z=0;$z<$y;$z++){
 //          		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;2</p>';
 //          }
 //		    }
-		    if($sume>26){
+		    if($sume>30){
 		    	echo "<script>alert('数据过多！！！')</script>";
 		    }
 //echo $sume;
@@ -820,9 +856,9 @@ $NLsix=explode("|",$NL[5]);
 //echo $d;
 														
 		?>
-    </td></tr><tr style="height:53.3500pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >整改要求</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=529  colspan=6 align="left"  valign=bottom  style="width:396.9000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal    style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >整改要求：请项目部按规范要求，定时，定人，定措施进行整改，并及时回复。</span>
+    </td></tr><tr style="height:53.3500pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >整改要求</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=529  colspan=6 align="left"  valign=bottom  style="width:396.9000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal    style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >整改完毕，经分公司复查合格后将整改资料及前后对比照片报公司安全监管部备案。&nbsp;&nbsp;［</span><?php echo $gou1; ?><span style="font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;font-size:9.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >］</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal   style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >整改完毕，经分公司复查合格后报公司安全监管部复查</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >。</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;［</span><?php echo $gou2; ?><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" >］</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:9.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p>
         <p class=MsoNormal   style="text-align:left;" >&nbsp;</p>
-        <p class=MsoNormal    style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >检查人<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;整改时间：</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;<span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
+        <p class=MsoNormal    style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >检查人<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):<font id="signA"></font></font></span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >整改时间:</span><span id='seal'></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
           <?php
            require("../../conn.php");
 		  $sjc2=$_GET["sjc1"];
@@ -844,7 +880,7 @@ $NLsix=explode("|",$NL[5]);
 		   $day=$b[2];
 		   echo $b[1];
 		?>
-          </span>月&nbsp;<font face="宋体" >
+          </span>月<font face="宋体" >
           <?php
            
 		   echo $b[2];
@@ -852,7 +888,7 @@ $NLsix=explode("|",$NL[5]);
 			$conn->close();
 														
 		?>
-          </font>&nbsp;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >日</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&#8212;&#8212;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
+          </font></span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >日</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&#8212;&#8212;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
           <?php
            require("../../conn.php");
 		  $sjc2=$_GET["sjc1"];
@@ -879,7 +915,7 @@ $NLsix=explode("|",$NL[5]);
 			$conn->close();
 														
 		?>
-          </font>&nbsp;&nbsp;</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >
+          </font></span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >
         <o:p></o:p></span></p></td></tr><tr style="height:34.0000pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >整改</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >情况</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=529  colspan=6 align="left"  valign=top  style="width:396.9000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:left;" >&nbsp;</p>
             <p class=MsoNormal  align=center  style="text-align:left;" ><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><span style="text-align: left">
             <?php
@@ -903,9 +939,12 @@ $NLsix=explode("|",$NL[5]);
 			$sql = "select * from 通知单 where 时间戳='".$sjc1."' and 工程id='$gcid1' and 通知单编号='".$tzdbh1."' ";
            $result = $conn->query($sql);
            while($row = $result->fetch_assoc()) { 
-            echo $row["总公司批复意见"];
+            $hfrq = $row["回复日期"];
+            if($hfrq!=""&&$hfrq!=null){
+            	echo "以上安全隐患已整改，请分公司复查。";
+            } 
             $fgsyj=$row["批复意见"];
-            $zgsyj=$row["总公司批复"];
+            $zgsyj=$row["总公司批复意见"];
              $A= explode("-",$row["回复日期"]);
 		   $B = count($A);
 		   if($B<3){
@@ -927,24 +966,26 @@ $NLsix=explode("|",$NL[5]);
 		?>
             </span>&nbsp;</span></p>
         <p class=MsoNormal  align=center  style="text-align:left;" >&nbsp;</p>
-        <p class=MsoNormal  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >专职安全员<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;项目负责人<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;<?php echo $A[0] ?>年&nbsp;<?php echo $A[1] ?>月&nbsp;<?php echo $A[2] ?>日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr><tr style="height:29.9500pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >分公司复查意见</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=529  valign=top  colspan=6  style="width:396.9000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:left;" ><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p>
+        <p class=MsoNormal  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >专职安全员<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):&nbsp;&nbsp;&nbsp;<span id="signC"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;项目负责人<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):<font id="signC2"></font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;<?php echo $A[0] ?>年&nbsp;<?php echo $A[1] ?>月&nbsp;<?php echo $A[2] ?>日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr><tr style="height:29.9500pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >分公司复查意见</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td><td width=529  valign=top  colspan=6  style="width:396.9000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:left;" ><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p>
             <p class=MsoNormal  align=center  style="text-align:left;" ><span style="text-align: left">
               <?php
-           echo $fgsyj;
-														
-		?>
+              	if($fgsyj=="合格"){
+              		
+              		echo "经我部复查，符合要求，请总公司审核。";
+              	}
+			  ?>
             </span></p>
             <p class=MsoNormal  align=center  style="text-align:left;" >&nbsp;</p>
-          <p class=MsoNormal  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >复查人<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;<?php echo $E[0] ?>年&nbsp;<?php echo $E[1] ?>月&nbsp;<?php echo $E[2] ?>日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr><tr style="height:29.9500pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >公司总部复查意见</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >
+          <p class=MsoNormal  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >复查人<font face="Calibri" >(</font><font face="宋体" >签名</font><font face="Calibri" >):<span id="fgs_sign"> </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;<?php echo $E[0] ?>年&nbsp;<?php echo $E[1] ?>月&nbsp;<?php echo $E[2] ?>日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr><tr style="height:29.9500pt;" ><td width=75  valign=center  style="width:56.7500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >公司总部复查意见</span><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >
           <o:p></o:p></span></p></td><td width=529  valign=top  colspan=6  style="width:396.9000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;;mso-border-left-alt:none;;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal  align=center  style="text-align:left;" ><span style="font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p><br>
                   <span style="text-align: left">
                   <?php
            echo $zgsyj;
 														
 		?>
-                  </span>            <br>
-            &nbsp;</o:p></span></p><p class=MsoNormal  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >复查人(签名):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;<?php echo $C[0] ?>年&nbsp;<?php echo $C[1] ?>月&nbsp;<?php echo $C[2] ?>日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr></table><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >注：复查后将整改资料作为附件，一式三份，</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >安全监管部</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >、分公司、项目部各留一份存档。</font></span><span style="mso-spacerun:'yes';font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></div>
-    <br><br><br><br>   
+                  </span>  <br />          
+            &nbsp;</o:p></span></p><p class=MsoNormal  style="text-align:left;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >复查人(签名):<span id="zgs_sign"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;</span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;<?php echo $C[0] ?>年&nbsp;<?php echo $C[1] ?>月&nbsp;<?php echo $C[2] ?>日</span><span style="font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr></table><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >注：复查后将整改资料作为附件，一式三份，</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >安全监管部</font></span><span style="mso-spacerun:'yes';font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >、分公司、项目部各留一份存档。</font></span><span style="mso-spacerun:'yes';font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.5000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></div>
+    <br>  
             <!--第二个表-->
             
 <p class=MsoNormal  align=center  style="text-align:center;line-height:150%;" ><b><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-weight:bold;font-size:18.0000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >安全隐患整改回复</font></span></b><b><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-weight:bold;font-size:14.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><p class=MsoNormal  style="text-indent:20.0000pt;mso-char-indent-count:20.0000;line-height:150%;" ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >&nbsp;&nbsp;&nbsp;&nbsp;工程名称：</font><span style="mso-spacerun:'yes';font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:10.0000pt;mso-font-kerning:1.0000pt;">
@@ -972,8 +1013,8 @@ $NLsix=explode("|",$NL[5]);
 			$waringing_length=count($waringing)-1;
 			for($i=0;$i<$waring_length;$i++){
 				$n=strlen($waring[$i]);
-				$N=intval($n/80);
-				$M=$n%80;
+				$N=intval($n/102);
+				$M=$n%102;
 				if($M!=0){
 					$s=$N+1;
 				}else if($M==0){
@@ -983,8 +1024,8 @@ $NLsix=explode("|",$NL[5]);
 			}
 			for($i=0;$i<$waringing_length;$i++){
 				$nn=strlen($waringing[$i]);
-				$NN=intval($nn/80);
-				$MM=$nn%80;
+				$NN=intval($nn/102);
+				$MM=$nn%102;
 				if($MM!=0){
 					$ss=$NN+1;
 				}else if($MM==0){
@@ -1025,20 +1066,20 @@ $NLsix=explode("|",$NL[5]);
 				}
 				$ask=explode("|*|",$ask);
 			}
-			if($waring_length<10){
+			if($waring_length<12){
 			for($b=0;$b<$waring_length;$b++){
 					$e=$b+1;
 					echo $e.".整改内容：".$waring[$b]."。</br>&nbsp;&nbsp;&nbsp;&nbsp;整改措施：".$ask[$b]."。</br>";
 				}
 			}
-			if (($sum1+$sum2)<20){
-			 $y=18-($sum1+$sum2);
+			if (($sum1+$sum2)<22){
+			 $y=20-($sum1+$sum2);
             	for($z=0;$z<$y;$z++){
             		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
             }
 		    }
 		    else{
-		    	$y=20-($sum1+$sum2);
+		    	$y=22-($sum1+$sum2);
             	for($z=0;$z<$y;$z++){
             		echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
 		    }
@@ -1092,10 +1133,18 @@ $NLsix=explode("|",$NL[5]);
 				
 														
 		?>
-              <p class=MsoNormal  style="line-height:150%;" ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >后附：整改照片</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="line-height:150%;" ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目名称（项目章）</span><u><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span style="font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></u></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目负责人（签名）</span><u><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span style="font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></u></p><p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $A[0] ?>年&nbsp;<?php echo $A[1] ?>月&nbsp;<?php echo $A[2] ?>日</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p></td></tr><tr><td width=619  valign=top  style="width:464.4000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >公司复查意见：</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p>
-              <p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span><span style="text-align: left">
- 
+              <p class=MsoNormal  style="line-height:150%;" ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >后附：整改照片</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="line-height:150%;" ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目名称（项目章）</span><u><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span style="font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></u></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p><p class=MsoNormal  align=center  style="text-align:center;" ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目负责人（签名）</span><u><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><span id="fzren"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span style="font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></u></p><p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $A[0] ?>年&nbsp;<?php echo $A[1] ?>月&nbsp;<?php echo $A[2] ?>日</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p></td></tr><tr><td width=619  valign=top  style="width:464.4000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;" ><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >公司复查意见：</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span><span style="text-align: left">
+              	<?php
+//            		echo $waring_length;
+//         echo"....";
+//				echo $sum1+$sum2;										
+		?>
+              <?php
+//         echo $fgsyj;
+														
+		?>
               </span></p>
+              
                 <?php
            require("../../conn.php");
 		   $sjc2=$_GET["sjc1"];
@@ -1124,13 +1173,13 @@ $NLsix=explode("|",$NL[5]);
 		  }
 		$conn->close()												
 		?>
-           <p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复查人签名：</span><u><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span style="font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></u></p><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $C[0] ?>年&nbsp;<?php echo $C[1] ?>月&nbsp;<?php echo $C[2] ?>日</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></p></td></tr></table>
+           <p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复查人签名：<span id="fgsfc"></span></span><u><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span style="font-family:宋体;line-height:150%;text-decoration:underline;text-underline:single;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></u></p><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal ><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $C[0] ?>年&nbsp;<?php echo $C[1] ?>月&nbsp;<?php echo $C[2] ?>日</span><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal ><span style="font-family:宋体;line-height:150%;font-size:12.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></p></td></tr></table>
             
             <!--第二个表↑-->
             
             
 <!--EndFragment-->
-<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>
+<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" ></p>
 <div class="Section0" style="padding-top:50px;" >
 <?php
            require("../../conn.php");
@@ -1147,11 +1196,10 @@ $NLsix=explode("|",$NL[5]);
 		   $hello = explode("~*^*~",$row["草稿附件"]);
 		   $hello1 = explode("~*^*~",$row["回复附件"]);
 		    if($hello1[0]==""){
-		   	$numbhello=count($hello);
 		   	$hello1="";
-		   	for($i=0;$i<$numbhello;$i++){
+		   	for($i=0;$i<count($hello);$i++){
 		   		$hello1.="add.jpg~*^*~";
-		   		if($i==$numbhello-1){
+		   		if($i==count($hello)-1){
 		   		 $hello1 = explode("~*^*~",$hello1);
 		   		}
 		   	}
@@ -1167,21 +1215,20 @@ $NLsix=explode("|",$NL[5]);
            	}
            	$huifuNeirongArray=explode("//",$huifuNeirong);
            }
-//         echo $tp;
+//         echo count($hello);
 			for($index=0;$index<count($hello)-1;$index++) 
-			{ 
+			{
+				$n_um = $index%3;
+				if($n_um==0){
+					?>
+					<p class=MsoNormal  align=center  style="text-align:center;line-height:150%;" ><b><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-weight:bold;font-size:18.0000pt;mso-font-kerning:1.0000pt;" ><font face="宋体" >安全隐患图片</font></span></b><b><span style="mso-spacerun:'yes';font-family:宋体;line-height:150%;font-weight:bold;font-size:14.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p><br />
+					<?php
+				} 
 		?>
-		<?php
-
-		    
-				
-														
-		?>
-		
 <div class="row"  style="text-align:center;padding-bottom: 75px;" >
 	<div class="col-xs-6 col-md-6" style="text-align:right;position: relative;">		
-		<img src="../../sgajxtcs/upload/<?php echo $hello[$index];?>"  alt="草稿<?php echo $index;?>" style="width:275px;height:265px;"/>
-		<div style="position: absolute;width:275px;height:65px;bottom: -65px;right: 15px;word-break:break-all;font-size:8.0000pt;">
+		<img src="../../hxajxtcs/upload/<?php echo $hello[$index];?>"  alt="草稿<?php echo $index;?>" style="width:255px;height:246.5px;"/>
+		<div style="position: absolute;width:255px;height:65px;bottom: -65px;right: 15px;word-break:break-all;font-size:8.0000pt;">
 			<div style="text-align:left;border:1px solid #000;height: 100%;overflow: hidden;text-overflow:ellipsis;
 				margin: auto;width: 100%;padding: 10px;" >
 				<?php echo $hello2[$index]; ?>
@@ -1189,8 +1236,8 @@ $NLsix=explode("|",$NL[5]);
 		</div>
 	</div>
 	<div class="col-xs-6 col-md-6" style="text-align:left;position: relative;">
-		<img src="../../sgajxtcs/upload/<?php echo $hello1[$index];?>" alt="回复<?php echo $index;?>" style="width:275px;height:265px;"/> 
-		 <div style="position: absolute;width:275px;height:65px;bottom: -65px;left: 15px;word-break:break-all;font-size:8.0000pt;">
+		<img src="../../hxajxtcs/upload/<?php echo $hello1[$index];?>" alt="回复<?php echo $index;?>" style="width:255px;height:246.5px;"/> 
+		 <div style="position: absolute;width:255px;height:65px;bottom: -65px;left: 15px;word-break:break-all;font-size:8.0000pt;">
 			<!--<input style="width: 100%;" type="text"  readonly="readonly" value="<?php echo $huifuNeirongArray[$index]; ?>"  />-->
 			<div style="text-align:left;border:1px solid #000;height: 100%;overflow: hidden;text-overflow:ellipsis;
 				margin: auto;width: 100%;padding: 10px;" >
@@ -1205,10 +1252,10 @@ $NLsix=explode("|",$NL[5]);
 	if(($index+1)%3==0){
 		
 		   if ($dx<10){
-			echo '<p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p>';
+			echo '<p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;" >&nbsp;</p>';
             }
             else {
-            	echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
+            	echo '<p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p><p class=MsoNormal  align=center  style="text-align:center;margin:0px;" >&nbsp;</p>';
             }
 		    }
 				
@@ -1216,12 +1263,16 @@ $NLsix=explode("|",$NL[5]);
 		
 		
 					}
+//					if(count($hello)-1>14){
+//						echo" <script> alert('图片数量最多显示14张!'); </script>";
+//					}
 	 }
 			
 			$conn->close();
 														
 		?>
 </div>
+<p id="sjc" hidden="hidden"><?php echo $sjc1 ?></p>
 <!--<div style="margin-left: 50;">
 						<input id="button" type="button" style="height:40 ;width:100;" value="点击打印预览" onClick="preview()">
 							
@@ -1237,7 +1288,167 @@ $NLsix=explode("|",$NL[5]);
 	   $("a.word-export").click(function(event) {
 		$("#page-content").wordExport();
 		});
+		var sjc = $("#sjc").text();
+		//向后台发送请求签名&印章用的时间戳
+		$.post("sign/sign_seal.php",
+		{
+			sjc:sjc
+		},
+		function(data,status){
+			var sign = data.split("|");
+//			$('#signA1').attr('src', sign[0]);
+//			$('#signA2').attr('src', sign[1]);
+//			$('#signA3').attr('src', sign[2]);
+//			$('#signB').attr('src', sign[3]);
+//			$('#signC').attr('src', sign[4]);
+//			$('#signD').attr('src', sign[5]);
+//			$('#signE').attr('src', sign[6]);
+//			$('#sign_seal').attr('src', sign[7]);
+//			alert(sjc); 
+			var singA = document.getElementById('signA');
+			var signB = document.getElementById('signB');
+			var fgs_sign = document.getElementById('fgs_sign');
+			var zgs_sign = document.getElementById('zgs_sign');
+			var fgsfc = document.getElementById('fgsfc');
+			var fzren = document.getElementById('fzren');
+			var signC = document.getElementById('signC');
+			var signC2 = document.getElementById('signC2');
+			if(sign[0]==""||sign[0]==null){
+//				alert(data)
+				var span_1 = document.createElement('span');
+					span_1.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					signA.appendChild(span_1);
+			}else{
+				var img_1 = document.createElement("img");
+					img_1.className="sign_d";
+					img_1.src=sign[0];
+					signA.appendChild(img_1);
+					
+			}
+			if(sign[1]==""||sign[1]==null){
+//				alert("n");
+				var span_2 = document.createElement('span');
+					span_2.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					signA.appendChild(span_2);
+			}else{
+//				alert(sign[1]);
+				var img_2 = document.createElement("img");
+					img_2.className="sign_d";
+					img_2.src=sign[1];
+					signA.appendChild(img_2);
+			}
+			if(sign[2]==""||sign[2]==null){
+//				alert("n");
+				var span_3 = document.createElement('span');
+					span_3.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					signA.appendChild(span_3);
+			}else{
+//				alert(sign[2]);
+				var img_3 = document.createElement("img");
+					img_3.className="sign_d";
+					img_3.src=sign[2];
+					signA.appendChild(img_3);
+			}
+			if(sign[6]!=""&&sign[6]!=null){
+//				alert(sign[6])
+				var seal = document.getElementById('seal');
+				var img_seal = document.createElement('img');
+				img_seal.className='seal';
+				img_seal.src="sign/txkj.svg";
+				seal.appendChild(img_seal);
+				
+			}
+			if(sign[3]!=""&&sign[3]!=null){
+//				alert(sign[3]);
+				var img_B = document.createElement('img');
+				img_B.className='sign';
+				img_B.src=sign[3];
+				signB.appendChild(img_B);
+				var span = document.createElement('span');
+				span.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				signB.appendChild(span);
+				
+				var img_fzr = document.createElement('img');
+				img_fzr.className='sign_1';
+				img_fzr.src=sign[3];
+				fzren.appendChild(img_fzr);
+			}else{
+				var span_4 = document.createElement('span');
+					span_4.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					signB.appendChild(span_4);
+			}
+			if(sign[4]==""||sign[4]==null){
+				var span_5 = document.createElement('span');
+					span_5.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					fgs_sign.appendChild(span_5);
+					
+
+			}else{
+//				alert(sign[4]);
+				var img_fgs = document.createElement('img');
+				img_fgs.className='sign';
+				img_fgs.src=sign[4];
+				fgs_sign.appendChild(img_fgs);
+				var span = document.createElement('span');
+				span.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				fgs_sign.appendChild(span);	
+				
+				var img_fhc = document.createElement('img');
+				img_fhc.className='sign_1';
+				img_fhc.src=sign[4];
+				fgsfc.appendChild(img_fhc);
+			
+			}
+			if(sign[5]==""||sign[5]==null){
+				var span_6 = document.createElement('span');
+					span_6.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					zgs_sign.appendChild(span_6);
+			}else{
+//				alert(sign[5]);
+				var img_zgs = document.createElement('img');
+				img_zgs.className='sign';
+				img_zgs.src=sign[5];
+				zgs_sign.appendChild(img_zgs);
+				var span = document.createElement('span');
+				span.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				zgs_sign.appendChild(span);	
+			
+			}
+			if(sign[7]==""||sign[7]==null){
+				var span_6 = document.createElement('span');
+					span_6.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					signC.appendChild(span_6);
+			}else{
+//				alert(sign[5]);
+				var img_zgs = document.createElement('img');
+				img_zgs.className='sign';
+				img_zgs.src=sign[7];
+				signC.appendChild(img_zgs);
+				var span = document.createElement('span');
+				span.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+				signC.appendChild(span);	
+			
+			}
+			if(sign[8]==""||sign[8]==null){
+				var span_6 = document.createElement('span');
+					span_6.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+					signC2.appendChild(span_6);
+			}else{
+//				alert(sign[5]);
+				var img_zgs = document.createElement('img');
+				img_zgs.className='sign';
+				img_zgs.src=sign[8];
+				signC2.appendChild(img_zgs);
+//				var span = document.createElement('span');
+//				span.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+//				zgs_sign.appendChild(span);	
+			
+			}
 		});
+		
+		
+		});
+		
 		</script>	
 	
 	</body></html>

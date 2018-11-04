@@ -79,8 +79,10 @@
 			success : function(data){
 				var length = data.length;
 //				alert(length);
+	console.log(length);
 				var str = "";
 				for(var i=0;i<length-1;i++){
+				
 				var hybjm = data[i].id;
 				var hyxz = data[i].分项工程;
 				var hydw = data[i].风险项;

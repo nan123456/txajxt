@@ -37,8 +37,8 @@
 									<tr>
 										<th>#</th>
 										<th class="hidden">id</th>
-										<th>分项工程</th>
-										<th>风险项</th>
+										<th style="width: 100px;">分项工程</th>
+										<th style="width: 80px;">风险项</th>
 										<th>二级风险项</th>
 										<th>风险等级</th>
 									</tr>
@@ -89,8 +89,9 @@
 	<!--<script src="js/pickers-init.js"></script>-->
 
 	<script type="text/javascript">
-		var chek_sure = document.getElementById("sure"); //监控按钮点击事件
-		jkmj = window.opener.document.getElementById("jkmj").value;
+		var chek_sure = document.getElementById("sure"),//监控按钮点击事件
+		jkmj = window.opener.document.getElementById("wxylx").value,
+		fxdj = window.opener.document.getElementById("fxdj");
 		$.ajax({
 			type:"post",
 			url:"wxy_menu.php",
@@ -140,6 +141,7 @@
 	//					alert(tb_num);
 				var name = new Array(); //将联系人名设为数组，方便多数据传输
 				var data_str = new String();
+				var data_wxydj = "";
 	//					alert(1);
 				var y = 0;
 
@@ -148,16 +150,17 @@
 		//						alert("if");
 				var mas = tb.rows[i].cells[0].getElementsByTagName("input")[0].checked;
 				if(mas == true) {
-						data_str = data_str + tb.rows[i].cells[1].innerHTML + "/";
-							}
+					data_str = data_str + tb.rows[i].cells[1].innerHTML + "/";
+					data_wxydj =data_wxydj + tb.rows[i].cells[5].innerHTML + "/";
+					}
+					
 				}
 
 					data_str = data_str.substring(0, data_str.length - 1); //去掉最后面的一根“/”
-//					alert(data_str);
 					var str = data_str.split('/');
-//					alert(str.length);
 					fWindowText1.value =str.length + "项";
 					chakan.value = data_str ;
+					fxdj.value = data_wxydj[0];
 					xuanzhong.value =data_str;
 //					window.returnValue = data_str;
 					window.close();

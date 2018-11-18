@@ -8,6 +8,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+		<style>
+			.bottom{
+				position: relative;
+				z-index: 0;
+			}
+			ul li {
+				list-style: none;
+			}
+			
+			.hide {
+				display: none
+			}
+			
+			
+			.width150 input[type="text"] {
+				width: 100%;
+				height: 32px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				padding-left: 12px;
+			}
+			
+			.width150 ul {
+				width: 96%;
+				padding: 0 0 0 20px;
+				margin: 0;
+				border: 1px solid #ccc;
+			}
+			
+			.width150 li {
+				position: relative;
+				z-index: 100;
+				padding: 5px;
+			}
+			
+			.width150 li+li {
+				border-top: 1px solid #ccc;
+			}
+			#selWxy{
+	  		position: absolute;
+	  		z-index: 10;
+	  		margin-right: auto;
+	   		margin-left: auto;
+	   		background: #FFFFFF;
+	  		/*border: 1px solid #999;*/ 
+	  		/*border-collapse: collapse;*/
+	  		/*width: 96%;*/
+	  		/*display: none;*/
+	  		/*font-size: 20px;*/
+	  		/*font-weight: bold;*/
+	  	}
+		</style>
     <link rel="icon" href="">
     	
     <title>同欣企业有限公司项目质量安全检查管理系统</title>
@@ -209,7 +261,7 @@
 												<h4 class="modal-title" id="myModalLabel">危险源详细填写</h4>
 											</div>
 											<div class="modal-body"> 
-												<div>		  
+												<form id="aqxcform" name="aqxcform" action="aqxcbc.php" method="post" class="form-horizontal" role="form" >
 													<div class="form-group">
 						
 														<div class="col-sm-8">
@@ -227,85 +279,42 @@
 																	} 
 																?>
 														</div>
-														<div class="btn-group" >
-															<button type="button  " class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-																选择
-															</button>
-															<ul class="dropdown-menu field">
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">安全管理</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">脚手架工程</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">基坑工程</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">模板工程</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">高处作业</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">施工用电</a></li>
-																<li class="lii lii1"><a href="#xmxz6" tabindex="-1" data-toggle="tab">物料提升机</a></li>
-																<li class="lii lii1"><a href="#xmxz6" tabindex="-1" data-toggle="tab">施工升降机</a></li>
-																<li class="lii lii1"><a href="#xmxz6" tabindex="-1" data-toggle="tab">物料提升机与施工升降机</a></li>
-																<li class="lii lii1"><a href="#xmxz6" tabindex="-1" data-toggle="tab">塔式起重机</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">起重吊装</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">施工机具</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">汽车吊作业</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">恶劣天气</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">现场消防</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">施工现场</a></li>
-																<li class="lii lii6"><a href="#xmxz6" tabindex="-1" data-toggle="tab">其他工程</a></li>      
+														<div class="col-sm-4 width150">
+															<input type="text" id="wxylx" name="wxylx" placeholder="请选择危险源类型" readonly>
+															
+															<ul id="selWxy" class="hide">
 															</ul>
-													 	</div>
+														</div>
 													</div>
-												</div>
-											<!-- 更改 -->         
-												<div class="form-group tab-pane fade my_none "  id="xmxz6">
-													<form id="aqxcform" name="aqxcform" action="aqxcbc.php" method="post" class="form-horizontal" role="form" >
+													<div class="bottom">
 														<div class="form-group"> 
-															<label for="jkmj" class="col-sm-3 control-label" >危险源类型：</label>
-															<div class="col-sm-3">
-																<input type="text" class="form-control" id="jkmj" name="jkmj" readonly="readonly">
-															</div>
-								
-															<!--<label for="ejlx" class="col-sm-3 control-label" >二级类型：</label>
-															<div class="col-sm-3">
-																<select class="form-control" id="xllb1"></select> 
-															</div>-->
 															<label for="ejlx" class="col-sm-3 control-label" >选择安全风险项：</label>
 															<div class="col-sm-3">
 																<input type="text"  class="form-control"  readonly="readonly" id="select_wxy" name="select_wxy" onclick="window.open('wxy_select.php')"/>
 															</div>
-															
-														</div>
-							
-														<!--<div class="form-group">
-															<label for="sgbw" class="col-sm-3 control-label">施工部位：</label>
-															<div class="col-sm-9">
-															<select class="form-control" id="xllb2">		</select>				
-															</div>
-														</div>-->
-														<label for="aqfxnum" class="col-sm-3 control-label" >查看安全风险项：</label>
+															<label for="aqfxnum" class="col-sm-3 control-label" >查看安全风险项：</label>
 															<div class="col-sm-3">
 																<button type="button"  class="form-control"  readonly="readonly" id="watch_wxy" name="watch_wxy" onclick="window.open('chakan.php')">查看</button>
 																<!--<input type="text"  class="form-control"  readonly="readonly" id="watch_wxy" name="watch_wxy" value="" onclick="window.open('chakan.php')"/>-->
 																<input class="hidden"  id="xuanzhong" name="xuanzhong"/>
 															</div>
-								
-														<div class="form-group">
-															<label for="overpg" class="col-sm-3 control-label">超过一定规模的危大工程：</label>
-																<div class="col-sm-3">
-																	<select id="overpg" name="overpg" class="form-control">
-																		<option>是</option>
-																		<option>否</option>
-																	</select>
-																</div>
-																	
 															
 														</div>
+														
+														<div class="form-group">
+															
+															<label for="yxrq" class="col-sm-3 control-label">风险等级：</label>
+															<div class="col-sm-3">
+																<input type="text" class="form-control"  name="fxdj" id="fxdj" readonly="readonly" placeholder="" >
+															</div>
+															<label for="djtime" class="col-sm-3 control-label">登记日期：</label>
+															<div class="col-sm-3">
+																<input type="text" class="form-control" id="djtime" name="djtime" placeholder="">
+															</div>
+														</div>
+														
 										
 														<div class="form-group">
-															<!--<label for="uses" class="col-sm-3 control-label">安全状态：</label>
-															<div class="col-sm-3">
-																<select id="overpg" name="overpg" class="form-control">
-																	<option>极度危险(红)</option>
-																	<option>特别危险(黄)</option>
-																</select>
-															</div>-->
 															<label for="kwsd" class="col-sm-3 control-label">工作状态：</label>
 															<div class="col-sm-3">
 																<select id="kwsd" name="kwsd" class="form-control">
@@ -313,53 +322,18 @@
 																	<option>已巡检</option>
 																</select>
 															</div>
-															
-								
-								
-															<label for="orgs" class="col-sm-3 control-label">是否专家认证：</label>
+															<label for="wxyzt" class="col-sm-3 control-label">危险源状态：</label>
 															<div class="col-sm-3">
-																<select id="orgs" name="orgs" class="form-control">
-																	<option>是</option>
-																	<option>否</option>
+																<select id="wxyzt" name="wxyzt" class="form-control">
+																	<option>使用中</option>
+																	<option>已关闭</option>
 																</select>
 															</div>
 														</div>
 							
-														<label for="wxyzt" class="col-sm-3 control-label">危险源状态：</label>
-														<div class="col-sm-3">
-															<select id="wxyzt" name="wxyzt" class="form-control">
-																<option>使用中</option>
-																<option>已关闭</option>
-															</select>
-														</div>
-								
-														<div id="yc">	
-															<div class="form-group ">	
-																<label for="sccj" class="col-sm-3 control-label">生产厂家：</label>
-																<div class="col-sm-3">
-																	<input type="text" class="form-control" name="sccj" placeholder="" >
-																</div>
-															</div>
-								
-															<div class="form-group">
-																<label for="cqdw" class="col-sm-3 control-label">产权单位：</label>
-																<div class="col-sm-3">
-																	<input type="text" class="form-control" name="cqdw" placeholder="" >
-																</div>
-								
-																<label for="sydate" class="col-sm-3 control-label">审验有效期：</label>
-																<div class="col-sm-3">
-																	<input type="date" class="form-control" name="sydate" placeholder="" >
-																</div>
-															</div>
-														</div>							
+																					
 	
-														<div class="form-group">
-															<label for="djtime" class="col-sm-3 control-label">登记日期：</label>
-																<div class="col-sm-3">
-																	<input type="text" class="form-control" id="djtime" name="djtime" placeholder="">
-																</div>
-														</div>
+														
 								
 														<div class="form-group">
 															<label for="zrr" class="col-sm-3 control-label">责任人：</label>
@@ -396,47 +370,15 @@
 															</div>
 														</div>
 														<div class="form-group">
-															<div id="result">
-																<label for="yxrq" class="col-sm-3 control-label">风险等级：</label>
-																<div class="col-sm-3">
-																	<input type="text" class="form-control"  name="fxdj" id="fxdj" placeholder="" >
-																</div>
+																
 																<input type="button" class="col-sm-3" style="margin-left: 150px;" value="标注危险源" onclick="window.open('marker.php')"/>
 																<input type="text" class="hidden" value="" id="jwd" name="jwd" readonly="readonly" />
-															</div>
 														</div>
-													
-														<!--<div id="allmap" style="overflow:hidden;zoom:1;position:relative;">	
-															<div id="map" style="height:100%;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;"></div>
-														</div>-->
-															<?php
-																$id=$_GET["id"];
-							       						$sql = "select * from 我的工程 where  id='$id'";
-							       						$result = $conn->query($sql);
-							       						while($row = $result->fetch_assoc()) {
-									            					
-								   						?>
-									
-														<input type="text" class="form-control hidden" id="gcid" name="gcid" value="<?php echo $row["id"];?>">	
-														<input type="text" class="form-control hidden" id="gcmc" name="gcmc" value="<?php echo $row["工程名称"];?>">
-														<input type="text" class="form-control hidden" id="dqs" name="dqs" value="<?php echo $row["地区省"];?>">
-														<input type="text" class="form-control hidden" id="dqs1" name="dqs1" value="<?php echo $row["地区市"];?>">
-														<?php
-															}	
-														?>
-													</div>
-							
-													<div class="form-group hidden">
-			                      <label for="sjc" class="control-label col-lg-2">时间戳：</label>
-		                        <div class="col-lg-6">
-		                        	<!--<input id="jwd" name="jwd" class="form-control"  size="16" type="text" value="" />-->
-	                           	<input id="sjc" name="sjc" class="form-control"  size="16" type="text" value="" />
-		                        </div>
-	                        </div>
 	                        <div class="modal-footer" >
 														<button type="button" class="btn btn-default " data-dismiss="modal">关闭 </button>
 														<button id="save10" type="button" onclick="window.location.reload()" class="btn btn-primary ">提交保存</button>
 													</div>
+												</div>
                         </form>
                     	</div>
 					
@@ -458,34 +400,154 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../js/jquery-1.10.2.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-   	<!--js of bootstrap-table -->
    	<script src="../js/bootstrap-table.min.js"></script>
-   	<!--js of bootstrap-table—export -->
    	<script src="../js/export/tableExport.js"></script>
    	<script src="../js/export/bootstrap-table-export.js"></script>
    	<script src="../js/bootstrap-table-zh-CN.min.js"></script>
     <script type="text/javascript"src="../js/jquery.validate.min.js"></script>
-    <!--<script src='../js/map.js'></script>-->
    
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <script src="../js/mySidenav.js" type="text/javascript" charset="utf-8"></script>
    
     <script src="../js/ProjectPlus/aqxc.js"></script>
     <script type="text/javascript">
-	    $('table').bootstrapTable({		
-			striped : true,	//会有隔行变色效果
-			pagination : true,	//表格底部显示分页条
-			pageSize : 10,	//页面数据条数
-			search : true,	//搜索框
-			showRefresh : true,	//刷新按钮
-			showToggle : true,	//切换试图（table/card）按钮
-			showPaginationSwitch : true,	//数据条数选择框
-			showColumns : true,	//内容列下拉框
-			toolbar : "#toolbar",	//指明自定义的菜单
-			showExport : true	//导出按钮
-			
-		  });
+    	(function() {
+			var str = '';
+			var arr = {
+				0: {
+					name: '安全管理',
+					id: 0
+				},
+				1: {
+					name: '脚手架工程',
+					id: 0
+				},
+				2: {
+					name: '基坑工程',
+					id: 0
+				},
+				3: {
+					name: '模板工程',
+					id: 0
+				},
+				4: {
+					name: '高处作业',
+					id: 0
+				},
+				5: {
+					name: '施工用电',
+					id: 0
+				},
+				6: {
+					name: '物料提升机',
+					id: 0
+				},
+				7: {
+					name: '施工升降机',
+					id: 0
+				},
+				8: {
+					name: '物料提升机与施工升降机',
+					id: 0
+				},
+				9: {
+					name: '塔式起重机',
+					id: 0
+				},
+				10: {
+					name: '起重吊装',
+					id: 0
+				},
+				11: {
+					name: '施工机具',
+					id: 0
+				},
+				12: {
+					name: '汽车吊作业',
+					id: 0
+				},
+				13: {
+					name: '恶劣天气',
+					id: 0
+				},
+				14: {
+					name: '现场消防',
+					id: 0
+				},
+				15: {
+					name: '施工现场',
+					id: 0
+				},
+				16: {
+					name: '其他工程',
+					id: 0
+				}
+			};
+			for(let x in arr) {
+				str += `<li><label><input type="checkbox" value="${arr[x].id}" data-name="${arr[x].name}">${arr[x].name}</label></li>`;
+			}
+			$('#selWxy').html(str);
+		})();
+
+		$("#wxylx").click(function() {
+			$(this).attr('placeholder', '');
+			var name = '';
+			$('#selWxy input').each(function() { //循环遍历checkbox
+				var check = $(this).is(':checked'); //判断是否选中
+				if(check) {
+					name += $(this).attr('data-name') + ',';
+					$(this).attr('name', "selWxy");
+				} else {
+					$(this).attr('name', "");
+				}
+			});
+			$("#wxylx").val(name.slice(0, -1)); //去除最后的逗号
+		});
+
+		$("#selWxy").mouseover(function() {
+			if(!$("#selWxy").hasClass('hover')) { //类hover在下面用来验证是否需要隐藏下拉，没有其他用途。
+				$("#selWxy").addClass('hover');
+			}
+		}).mouseout(function() {
+			$("#selWxy").removeClass('hover');
+		});
+
+		$(document).on('click', function() {
+			if(!$("#wxylx").is(":focus") && !$("#selWxy").hasClass('hover')) { //如果没有选中输入框且下拉不在hover状态。
+
+				var name = '';
+				$('#selWxy input').each(function() { //遍历checkbox
+					var check = $(this).is(':checked'); //判断是否选中
+					if(check) {
+						name += $(this).attr('data-name') + ',';
+						$(this).attr('name', "selWxy");
+					} else {
+						$(this).attr('name', "");
+					}
+				});
+				$("#wxylx").val(name.slice(0, -1)); //去除最后的逗号
+				$("#selWxy").addClass('hide');
+			} else {
+				$("#selWxy").removeClass('hide');
+			}
+		});
+    	
+    	
+    	
+    	
+    	$('table').bootstrapTable({		
+					striped : true,	//会有隔行变色效果
+					pagination : true,	//表格底部显示分页条
+					pageSize : 10,	//页面数据条数
+					search : true,	//搜索框
+					showRefresh : true,	//刷新按钮
+					showToggle : true,	//切换试图（table/card）按钮
+					showPaginationSwitch : true,	//数据条数选择框
+					showColumns : true,	//内容列下拉框
+					toolbar : "#toolbar",	//指明自定义的菜单
+					showExport : true	//导出按钮
+				
+			  });
 		  $("#save10").click(function(){ 
 				$.ajax({
 	        cache: true,
@@ -501,39 +563,6 @@
 	        }
 	    	});
 			}); 
-		  
-		  function goback(){
-				 window.location.href="aqxc.php";
-				}
-				
-				
-				
-	    $(function() {
-        $(".lii").click(function() {
-            //          第一种方法
-             $(".lii").removeClass("active");//删除指定的 class 属性
-             $(this).addClass("active");//向被选元素添加一个或多个类
-             $(this).toggleClass("active");//该函数会对被选元素进行添加/删除类的切换操作
-            var text = $(this).text();//获取当前选中的文本
-        	});
-		 		$(".lii5").click(function() {          
-             $("#xmxz5").removeClass("my_none");
-             $("#xmxz6").addClass("my_none");  
-        	});
-     		$(".lii6").click(function() {          
-	         $("#xmxz6").removeClass("my_none");
-	         $("#xmxz5").addClass("my_none");
-	         $("#yc").addClass("my_none");
-        	});
-        $(".lii1").click(function() {          
-         $("#xmxz6").removeClass("my_none");
-         $("#yc").removeClass("my_none");
-         $("#xmxz5").addClass("my_none");
-        });	
-    	})
-    	
-    	
-    	
     	
     	function dianji2(id){
 //							alert(id);
@@ -554,115 +583,26 @@
 	        }
 	    	}); 
 			};		
-	   </script>
-<!-- 更改 -->
-<script>	
-  	$("ul.field").on("click","li",function(){
-  		document.getElementById("jkmj").value=$(this).text();
-  		var id=$(this).text();
-  							$.ajax({
-			                type: "GET",
-			                url:'aqxcd.php',
-			                data:{
-			                	fname:id,
-			                	t:0
-			                },// 你的formid
-			                async: false,
-			                error: function(request) {
-			                    alert("Connection error");
-			                },
-			                success: function(data) {
-			                	$("#xllb2").empty();
-												$("#xllb1").empty();//刷新下拉列表
-												var data = data.split("?");//切割传回来的字符串
-												var sel = document.getElementById("xllb1");
-												var i=0;
-												while(i<data.length-1)//添加下拉列表
-												{
-													var option = new Option(data[i]);	      
-												  sel.options.add(option); 
-												  i++;
-												}
-			                }
-			            });
-		});			              		
-						document.getElementById('xllb1').addEventListener('change',function(){
-								var id=this.value;
-									$.ajax({
-			                type: "GET",
-			                url:'aqxcd.php',
-			                data:{
-			                	fname:id,
-			                	t:1
-			                },// 你的formid
-			                async: false,
-			                error: function(request) {
-			                    alert("Connection error");
-			                },
-			                success: function(data) {
-												$("#xllb2").empty();//刷新
-												var data = data.split("?");
-												var sel = document.getElementById("xllb2");
-												var i=0;
-												while(i<data.length-1)
-												{
-//													alert(data[i]);
-													var option = new Option(data[i]);	      
-												  sel.options.add(option); 
-												  i++;
-												}	
-										 	}	
-							});						
- 					});
- 					
  				
  					
- 					 function test(o) {
- 					 		var wxyid = document.getElementById("wxyid").value;
-// 							var wxystr = document.getElementById("wxystr").value;
-	            if (!o.checked) {
-	                return;
-	            }
-	            var wxyid1 = wxyid + "|" + o.id;
-	            document.getElementById("wxyid").value = wxyid1;
-//          	alert(o.id);
-//	            var tr = o.parentNode.parentNode;
-//	            var tds = tr.cells;
-//	            var str = "";
-//	            for(var i = 1;i < tds.length;i++){
-//	                if (i < 7) {
-//	                    str = str + tds[i].innerHTML + ",";
-//	                }
-//	             	
-//         	 		}
-//	        		var wxystr1 = wxystr + "|" + str;
-//	        		document.getElementById("wxystr").value = wxystr1;
-//	            alert(str);
-        	}
-</script>
-<!-- 更改 -->
-<script type="text/javascript">
+		 	function test(o) {
+		 		var wxyid = document.getElementById("wxyid").value;
+		    if (!o.checked) {
+		        return;
+		    }
+    		var wxyid1 = wxyid + "|" + o.id;
+    		document.getElementById("wxyid").value = wxyid1;
+			}
    
-    jeDate({
-		dateCell:"#djtime",
-		format:"YYYY-MM-DD",
-		isinitVal:true,
-		isTime:true, //isClear:false,
-		minDate:"2014-09-19 00:00:00",
-		okfun:function(val){alert(val)}
-	})
+	    jeDate({
+				dateCell:"#djtime",
+				format:"YYYY-MM-DD",
+				isinitVal:true,
+				isTime:true, //isClear:false,
+				minDate:"2014-09-19 00:00:00",
+				okfun:function(val){alert(val)}
+			})
 
-    jeDate({
-		dateCell:"#djtime1",
-		format:"YYYY-MM-DD",
-		isinitVal:true,
-		isTime:true, //isClear:false,
-		minDate:"2014-09-19 00:00:00",
-		okfun:function(val){alert(val)}
-	})
-	  	$("ul.field").on("click","li",function(){
-  
-  });
-</script>
+   	</script>
   </body>
 </html>

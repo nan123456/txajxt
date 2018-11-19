@@ -2,18 +2,14 @@
 	require("../conn.php");
 
 	$gcid=$_POST["gcid"];
-	$wxyid=$_POST["wxyid"];
-	
-//	$gcid="661";
-//	$wxyid="338";
 	
 	$sqldate="";
-	$sql = "SELECT * FROM 危险源 where 工程id='$gcid' and id='$wxyid'";
+	$sql = "SELECT * FROM 我的工程 where id='$gcid' ";
 	$result = $conn->query($sql);
 //	$count=mysqli_num_rows($result);	
 	if ($result->num_rows > 0) {
 		while($row = $result->fetch_assoc()) {
-			$sqldate= $sqldate.'{"检查对象":"'.$row["工程名称"].'"},';
+			$sqldate= $sqldate.'{"地区省":"'.$row["地区省"].'","地区市":"'.$row["地区市"].'"},';
 		 }
 	} else {
 		//echo "0 results";

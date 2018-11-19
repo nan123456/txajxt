@@ -103,8 +103,6 @@
 		var chek_sure = document.getElementById("sure"); //监控按钮点击事件
 		chek_sure.addEventListener("click", function() {
 			var tb = document.getElementById("dynamic-table");
-			fxdj = window.opener.document.getElementById("fxdj");
-			fxdj.value = tb.rows[1].cells[3].innerHTML;
 			window.close();
 		});
 			</script>

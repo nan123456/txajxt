@@ -12,22 +12,12 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/docs.css"/>
-    <!-- Custom styles for this template -->
     <link href="../css/theme.css" rel="stylesheet">
     
-    <!-- Custom styles for bootstrap-table -->
     <link href="../css/bootstrap-table.min.css" rel="stylesheet">
     <link href="../css/mycss.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   
   </head>
   <body>
@@ -215,6 +205,13 @@
 										</div>
 
 									</div>
+									<div class="form-group">
+										<label for="upload_plan" class="col-sm-2 control-label">上传平面图：</label>
+										<div class="col-sm-3">
+											<input type="button" class="form-control" id="upload_plan" name="upload_plan" value="点击上传平面图" onclick="window.open('upload_plan.php')">
+										</div>
+									</div>
+									
 									<div class="panel-heading">
 										<h3 class="panel-title label label-info">责任人</h3>
 									</div>
@@ -291,39 +288,6 @@
 											<input type="text" class="form-control" id="zlyasj" name="zlyasj" placeholder="质量员手机">
 										</div>
 									</div>
-									<!--<div class="panel-heading">
-										<h3 class="panel-title label label-info">分公司</h3>
-									</div>
-									<div class="form-group">
-										<label for="bmA" class="col-sm-2 control-label">分管领导：</label>
-										<div class="col-sm-3">
-											<input type="text" class="form-control" id="bmA" name="bmA" placeholder="分管领导">
-										</div>
-										<label for="bmAc" class="col-sm-2 control-label">联系方式：</label>
-										<div class="col-sm-3">
-											<input type="text" class="form-control" id="bmAc" name="bmAc" placeholder="分管领导手机">
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="bmB" class="col-sm-2 control-label">工程部部长：</label>
-										<div class="col-sm-3">
-											<input type="text" class="form-control" id="bmB" name="bmB" placeholder="工程部部长">
-										</div>
-										<label for="bmBc" class="col-sm-2 control-label">联系方式：</label>
-										<div class="col-sm-3">
-											<input type="text" class="form-control" id="bmBc" name="bmBc" placeholder="工程部部长手机">
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="bmC" class="col-sm-2 control-label">巡查员：</label>
-										<div class="col-sm-3">
-											<input type="text" class="form-control" id="bmC" name="bmC" placeholder="巡查员">
-										</div>
-										<label for="bmCc" class="col-sm-2 control-label">联系方式：</label>
-										<div class="col-sm-3">
-											<input type="text" class="form-control" id="bmCc" name="bmCc" placeholder="巡查员手机">
-										</div>
-									</div>-->
 									<div class="panel-heading">
 										<h3 class="panel-title label label-info">分公司</h3>
 									</div>

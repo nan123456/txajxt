@@ -84,26 +84,6 @@
 										</tr>
 									</thead>
 									<tbody>
-										<tr>
-											<td>A栋一层</td>
-											<td><input type="file" onchange="upload(this)"/></td>
-											<td><button type="submit" class="btn-success">上传</button></td>
-										</tr>
-										<tr>
-											<td>A栋二层</td>
-											<td><input type="file" onchange="upload(this)"/></td>
-											<td><button type="submit" class="btn-success">上传</button></td>
-										</tr>
-										<tr>
-											<td>A栋三层</td>
-											<td><input type="file" onchange="upload(this)"/></td>
-											<td><button type="submit" class="btn-success">上传</button></td>
-										</tr>
-										<tr>
-											<td>A栋四层</td>
-											<td><input type="file" onchange="upload(this)"/></td>
-											<td><button type="submit" class="btn-success">上传</button></td>
-										</tr>
 									</tbody>
 								</table>
 							</div>
@@ -118,7 +98,7 @@
     </div>
     
 
-    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
    	<script src="../js/bootstrap-table.min.js"></script>
    	<script src="../js/export/tableExport.js"></script>
@@ -128,12 +108,66 @@
    
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript">
-    	var cs = window.opener.document.getElementById("cs").value;
-    	var ds = window.opener.document.getElementById("ds").value;
+//  	var cs = window.opener.document.getElementById("cs").value;
+//  	var ds = window.opener.document.getElementById("ds").value;
+    	var cs = 4;
+    	var ds = 4;
+    	
+    	var dNum=new Array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+    	var i = 1;
+    	var j = 0;
+    	var index = 0;
+    	for(j=0;j<ds;j++){
+    		var d = dNum[j];
+    		for(i=1;i<cs+1;i++){
+    			var floor = d + i;
+    			var str = '<tr><td>'+floor+'</td><td><input type="file" id="ffile'+index+'" onchange="upload(this)"/></td><td><input type="button" name='+floor+' id="file'+index+'" value="文件上传" onclick="shangchuan(this)"/></td></tr>'
+//  			alert(floor);
+    			$("#tb1").append(str);
+    			index++;
+    		}
+    	}
+    	
     	function upload(obj){
     		 	var img = document.getElementById("previewimg");
         	img.src = window.URL.createObjectURL(obj.files[0]);
     	}
+    	
+	 		function shangchuan(id){
+	 				var xxx = "f"+id.id;
+	 				var floor = id.name;
+//					console.log(id.name)
+        	var val = document.getElementById(xxx).files;
+        	
+		    	if(!val.length){
+		        	alert('请选择文件后上传')
+		        	return
+		    	}else{
+		    		//获取数据
+				    fData = new FormData();
+				    fData.append("flag",'addNew')
+				    fData.append("Img",val[0])
+				    fData.append("lc",floor)
+				    $.ajax({
+				        type:"post",
+				        url:"php/Imgfile.php",
+				        async:true,
+				        dataType:'json',
+				        data:fData,
+				        processData:false,
+				        contentType:false,
+				        success:function(data){
+				        	console.log(data)
+				            alert("上传成功")
+				            //刷新表格数据
+		//			            tabMesSimple.ajax.reload();
+				        },
+				        error:function(s,e,t){
+				            alert('出现错误，请及时联系管理员')
+				        }
+			    	});
+			    }
+      	}
     </script>
   </body>
 </html>

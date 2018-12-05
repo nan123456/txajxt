@@ -88,7 +88,7 @@
 								</table>
 							</div>
 							<div class="col-lg-6">
-								<img id="previewimg" src="../img/shuijiao.jpg" />
+								<img id="previewimg" src="../img/addimage.png" />
 							</div>
 						</div>
 					</div> 			
@@ -108,10 +108,11 @@
    
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript">
-//  	var cs = window.opener.document.getElementById("cs").value;
-//  	var ds = window.opener.document.getElementById("ds").value;
-    	var cs = 4;
-    	var ds = 4;
+    	var cs = window.opener.document.getElementById("cs").value;
+    	var ds = window.opener.document.getElementById("ds").value;
+//  	var cs = 12;
+//  	var ds = 2;
+//  	alert(cs+"  "+ds)
     	
     	var dNum=new Array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
     	var i = 1;
@@ -119,7 +120,7 @@
     	var index = 0;
     	for(j=0;j<ds;j++){
     		var d = dNum[j];
-    		for(i=1;i<cs+1;i++){
+    		for(i=1;i<=cs;i++){
     			var floor = d + i;
     			var str = '<tr><td>'+floor+'</td><td><input type="file" id="ffile'+index+'" onchange="upload(this)"/></td><td><input type="button" name='+floor+' id="file'+index+'" value="文件上传" onclick="shangchuan(this)"/></td></tr>'
 //  			alert(floor);

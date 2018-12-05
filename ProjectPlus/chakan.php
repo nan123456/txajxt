@@ -65,8 +65,7 @@
 	<!--<script src="js/pickers-init.js"></script>-->
 
 	<script type="text/javascript">
-		var ck = window.opener.document.getElementById("watch_wxy").value;
-		
+		var ck = window.opener.document.getElementById("watch_wxy").value
 //		alert(ck);
 		$.ajax({
 			type:"POST",

@@ -52,12 +52,6 @@
 	  		margin-right: auto;
 	   		margin-left: auto;
 	   		background: #FFFFFF;
-	  		/*border: 1px solid #999;*/ 
-	  		/*border-collapse: collapse;*/
-	  		/*width: 96%;*/
-	  		/*display: none;*/
-	  		/*font-size: 20px;*/
-	  		/*font-weight: bold;*/
 	  	}
 		</style>
     <link rel="icon" href="">
@@ -184,7 +178,7 @@
 												</button>
 												<ul class=" dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" >
 													<li class="lii"><a href="#aqx7"  tabindex="-1" data-toggle="tab">全部类型</a></li>
-													<li class=" lii"><a href="#aqx0" tabindex="-1" data-toggle="tab" >基坑支护及降水工程</a></li>
+													<li class="lii"><a href="#aqx0" tabindex="-1" data-toggle="tab" >基坑支护及降水工程</a></li>
 													<li class="lii"><a href="#aqx1"  tabindex="-1" tabindex="-1" data-toggle="tab" >土方开挖工程</a></li>
 													<li class="lii"><a href="#aqx2"  tabindex="-1" data-toggle="tab">模板工程支撑体系</a></li>
 													<li class="lii"><a href="#aqx3"  tabindex="-1" data-toggle="tab">脚手架工程</a></li>
@@ -194,6 +188,17 @@
 												</ul>
 										  </div>
 										  <button type="button" class="btn btn-default" data-toggle="modal" onclick="window.open('ewmdy.php')">生成二维码</button>
+										  <div class="btn-group">
+												<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+													分类打印
+													<span class="caret"></span>
+												</button>
+												<ul class=" dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" >
+													<li class="lii" onclick="dy()"><a href="#" tabindex="-1" data-toggle="tab">状态类型</a></li>
+													<li class="lii" onclick="dy()"><a href="#" tabindex="-1" data-toggle="tab">等级类型</a></li>
+													<li class="lii" onclick="dy()"><a href="#" tabindex="-1" data-toggle="tab">类别类型</a></li>
+												</ul>
+										  </div>
 										</div>
 										<input type="text" class="hidden" id="wxyid" value="" />
 										<!--<input type="text" class="hidden" id="wxystr" value="" />-->
@@ -563,6 +568,28 @@
 	        }
 	    	});
 			}); 
+			
+			//js获取URL参数
+			function GetRequest() {
+			   var url = location.search; //获取url中"?"符后的字串
+			   var theRequest = new Object();
+			   if (url.indexOf("?") != -1) {
+			      var str = url.substr(1);
+			      strs = str.split("&");
+			      for(var i = 0; i < strs.length; i ++) {
+			         theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);
+			      }
+			   }
+			   return theRequest;
+			}
+			
+			function dy(){
+				var Request = new Object();
+						Request = GetRequest();
+				var id='';
+				id = Request['id']
+				window.location.href = "../phpexcel/my_test/fldy_ztlx.php?id=" + id;
+			}
     	
     	function dianji2(id){
 //							alert(id);

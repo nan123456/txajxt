@@ -74,7 +74,6 @@
 			$fxid_arr = "";
 			$count_fxxgs = count_fxxgs($conn,$jkmj,$watch_wxy);//风险项个数
 			$fxid = fxid($conn,$jkmj,$watch_wxy);//风险项id
-			print_r($fxid);
 			$count_fxxgs = $count_fxxgs.'项';
 			$a = implode("/",$fxid);
 			

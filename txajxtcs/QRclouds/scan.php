@@ -9,7 +9,7 @@
 	$result = $conn->query($sql);
 	if($result->num_rows > 0){
 		while($row = $result->fetch_assoc()){
-			$sqldate = $sqldate.'{"风险项id":"'. $row["风险项id"].'"},';
+			$sqldate = $sqldate.'{"风险项id":"'. $row["风险项id"].'","违章大类":"'. $row["危险源类型"].'"},';
 		}
 	}
 //	$sqldate = explode("/",$sqldate)

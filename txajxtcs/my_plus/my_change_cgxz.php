@@ -2,13 +2,12 @@
 	require("../conn.php");
 
 	$gcid=$_POST["gcid"];
-	$wxyid=$_POST["wxyid"];
 	
 //	$gcid="661";
 //	$wxyid="338";
 	
 	$sqldate="";
-	$sql = "SELECT * FROM 危险源 where 工程id='$gcid' and id='$wxyid'";
+	$sql = "SELECT * FROM 我的工程 where id='$gcid' ";
 	$result = $conn->query($sql);
 //	$count=mysqli_num_rows($result);	
 	if ($result->num_rows > 0) {

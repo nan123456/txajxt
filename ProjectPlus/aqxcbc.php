@@ -39,8 +39,8 @@
 	
 		//使用数组对应方法比较两个数组的相同部分
 		$count_fxxgsdata = explode("/",$watch_wxy);
-		foreach($count_fxxgsdata as $ky => $fxfl_id){
-			if(in_array($fxfl_id, $fxfl_arr)){
+		foreach($count_fxxgsdata as $ky => $fxfl_id){  //遍历数组
+			if(in_array($fxfl_id, $fxfl_arr)){     //判断数组内容是否相等
 				$count_fxxgs++;
 			}
 		}
@@ -75,7 +75,7 @@
 			$count_fxxgs = count_fxxgs($conn,$jkmj,$watch_wxy);//风险项个数
 			$fxid = fxid($conn,$jkmj,$watch_wxy);//风险项id
 			$count_fxxgs = $count_fxxgs.'项';
-			$a = implode("/",$fxid);
+			$a = implode("/",$fxid);  //字符串转数组
 			
 			$sql1 = "INSERT INTO `危险源` (时间戳,工程名称,工程id,危险源类型,风险项个数,风险项id,使用状态,责任人,责任人联系电话,经纬度,登记日期,危险源状态,标注部位,开始日期,结束日期,危险源名称,风险等级)VALUES('$sjc','$gcmc','$gcid','$jkmj','$count_fxxgs','$a','$kwsd','$zrr','$lxdh','$jwd','$djtime','$wxyzt','$bzbw','$startdata','$enddata','$wxymc','$fxdj')";
 			if ($conn->query($sql1) === TRUE) {

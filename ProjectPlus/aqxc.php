@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
@@ -277,9 +276,12 @@
 							       						while($row = $result->fetch_assoc()) {
 								            					
 								   						?>
-							
-															<input type="text" class="form-control" id="" name=""  value="工程名称：<?php echo $row["工程名称"];?>" readonly="readonly">
+															<label class="col-sm-3 control-label">工程名称：</label>
+															<div class="col-sm-6">
+																<input type="text" class="form-control" id="gcmc" name="gcmc"  value="<?php echo $row["工程名称"];?>" readonly="readonly">
 																<input type="text" class="form-control hidden" id="gcid" name="gcid" value="<?php echo $id?>"/>
+															</div>
+															
 																<?php
 																	} 
 																?>
